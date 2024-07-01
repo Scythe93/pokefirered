@@ -1,0 +1,34 @@
+mapscripts route13Volcano4_MapScripts {
+}
+script volcanosummit_Sign {
+    lockall
+    msgbox("Mt. Coder Summit.")
+    releaseall
+}
+
+script rocksmash {
+    giveitem(ITEM_HM06_ROCK_SMASH)
+    setflag(FLAG_WONDER_CARD_UNUSED_8)
+    removeobject(1)
+    releaseall
+}
+
+
+script test123 {
+    lockall
+    if(!flag(FLAG_WONDER_CARD_UNUSED_9)){
+        showmonpic(SPECIES_GENGAR, 10,3)
+        msgbox(format("Do you want this Gengar?"), MSGBOX_YESNO)
+        if(var(VAR_RESULT) == NO) {
+            msgbox(format("Ill choose another"))
+
+        }
+        if(var(VAR_RESULT) == YES){
+            givemon(SPECIES_GENGAR, 50, ITEM_ORAN_BERRY)
+            playfanfare(MUS_OBTAIN_ITEM)
+            setflag(FLAG_WONDER_CARD_UNUSED_9)
+        }
+    }
+    hidemonpic
+    releaseall
+    }

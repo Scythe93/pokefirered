@@ -57,8 +57,19 @@
       "elevation": 0,
       "dest_map": "MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "12"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

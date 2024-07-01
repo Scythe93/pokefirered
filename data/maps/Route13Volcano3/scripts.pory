@@ -1,0 +1,9 @@
+mapscripts Route13Volcano3_MapScripts {
+    
+}
+
+script volcano3ultraball {
+    giveitem(ITEM_ULTRA_BALL)
+    removeobject(1)
+    releaseall
+}

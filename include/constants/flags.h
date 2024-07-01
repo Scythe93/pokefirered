@@ -190,7 +190,7 @@
 #define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS 0x0AE
 
 // Unused?
-#define FLAG_0x0AF               0x0AF
+#define FLAG_0x0AF               0x0AF  -- test pokeball
 #define FLAG_0x0B0               0x0B0
 #define FLAG_0x0B1               0x0B1
 #define FLAG_0x0B2               0x0B2
@@ -709,10 +709,10 @@
 #define FLAG_WONDER_CARD_UNUSED_3                        0x2AC
 #define FLAG_WONDER_CARD_UNUSED_4                        0x2AD
 #define FLAG_WONDER_CARD_UNUSED_5                        0x2AE
-#define FLAG_WONDER_CARD_UNUSED_6                        0x2AF
-#define FLAG_WONDER_CARD_UNUSED_7                        0x2B0
-#define FLAG_WONDER_CARD_UNUSED_8                        0x2B1
-#define FLAG_WONDER_CARD_UNUSED_9                        0x2B2
+#define FLAG_WONDER_CARD_UNUSED_6                        0x2AF // used
+#define FLAG_WONDER_CARD_UNUSED_7                        0x2B0 // used
+#define FLAG_WONDER_CARD_UNUSED_8                        0x2B1 // used
+#define FLAG_WONDER_CARD_UNUSED_9                        0x2B2 // used
 #define FLAG_WONDER_CARD_UNUSED_10                       0x2B3
 #define FLAG_WONDER_CARD_UNUSED_11                       0x2B4
 #define FLAG_WONDER_CARD_UNUSED_12                       0x2B5
@@ -794,9 +794,9 @@
 #define FLAG_OAKS_RATING_IS_VIA_PC                       0x2FF
 
 // Unused?
-#define FLAG_0x300               0x300
-#define FLAG_0x301               0x301
-#define FLAG_0x302               0x302
+#define FLAG_0x300               0x300 // used
+#define FLAG_0x301               0x301 //
+#define FLAG_0x302               0x302 //
 #define FLAG_0x303               0x303
 #define FLAG_0x304               0x304
 #define FLAG_0x305               0x305

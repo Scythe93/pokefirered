@@ -23,6 +23,9 @@ CeruleanCity_Mart_EventScript_Clerk::
 	.align 2
 CeruleanCity_Mart_Items::
 	.2byte ITEM_POKE_BALL
+	.2byte ITEM_PREMIER_BALL
+	.2byte ITEM_LUXURY_BALL
+	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE

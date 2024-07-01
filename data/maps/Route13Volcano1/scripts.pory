@@ -1,0 +1,222 @@
+mapscripts Route13Volcano1_MapScripts {
+    
+}
+
+script HotSpringGirl{
+    lockall
+    msgbox(format("This is a Natural hot spring produced from the heat of Mt. Coder.\NTaking a dip will heal your Pokemon!"))
+    releaseall
+}
+
+script VolcanoSign{
+    lockall
+    msgbox(format("Mt Coder.\N ACTIVE VOLCANO."))
+    releaseall
+}
+
+script TRAINER_Volcano_Lass{
+    trainerbattle_single(TRAINER_Volcano_Lass1, vLass_Intro, vLass_Outro)
+    msgbox(PostBattle_vLass, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vLass_Intro{
+    "That's not snow, it's ashes from the Volcano!"
+}
+
+text vLass_Outro{
+    "Best of luck!"
+}
+
+text PostBattle_vLass{
+    "You got this!"
+}
+
+
+script TRAINER_Volcano_Youngster{
+    trainerbattle_single(TRAINER_Volcano_Young1, "I'm not supposed to be out here!", vYoung_Outro)
+    msgbox(PostBattle_vYoung, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vYoung_Outro{
+    "Mom doesn't want me near the Volcano!"
+}
+
+text PostBattle_vYoung{
+    "Don't tell my mom that you saw me!"
+}
+
+script TRAINER_Volcano_Trainer1{
+    trainerbattle_single(TRAINER_VOLCANO_COOLVITO, vTrainer1_Intro, vTrainer1_Outro)
+    msgbox(PostBattle_vTrainer1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vTrainer1_Outro{
+    "Don't get burned."
+    }
+
+text vTrainer1_Intro{
+    "You feel the heat from Mt. Coder?"
+}
+
+text PostBattle_vTrainer1{
+    "Don't get burned."
+}
+
+script TRAINER_Volcano_BallTony1{
+    trainerbattle_single(TRAINER_VOLCANO_BALLTONY, vTony_Intro, vTony_Outro)
+    msgbox(PostBattle_vTony, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vTony_Outro{
+    "I think you can make it."
+    }
+
+text vTony_Intro{
+    "Are you climbing to the summit?"
+}
+
+text PostBattle_vTony{
+    "Don't get burned."
+}
+
+script Volcano_Aanah{
+    trainerbattle_single(TRAINER_VOLCANO_COOLAANAH, vAanah_Intro, vAanah_Outro)
+    msgbox(PostBattle_vAanah, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vAanah_Outro{
+    "My babies!!!!"
+    }
+
+text vAanah_Intro{
+    "I gotta pee so bad"
+}
+
+text PostBattle_vAanah{
+    "You're lucky I don't shoot you"
+}
+
+script Volcano_Skidmore{
+    trainerbattle_single(TRAINER_VOLCANO_SKIDMORE, vSkid_Intro, vSkid_Outro)
+    msgbox(PostBattle_vSkid, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vSkid_Outro{
+    "Oh SHIT that wasn't coke!"
+    }
+
+text vSkid_Intro{
+    "Can I get a bump?"
+}
+
+text PostBattle_vSkid{
+    "..lost in a K hole.."
+}
+
+
+script Volcano_hiker1{
+    trainerbattle_single(TRAINER_VOLCANO_HIKER1, vhike1_Intro, vhike1_Outro)
+    msgbox(PostBattle_vhike1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vhike1_Outro{
+    "Maybe I should train harder."
+    }
+
+text vhike1_Intro{
+    "I've never hiked a Volcano before!"
+}
+
+text PostBattle_vhike1{
+    "Maybe I should train harder.."
+}
+
+script volcanoultraball {
+    giveitem(ITEM_PREMIER_BALL)
+    removeobject(11)
+    releaseall
+}
+
+script volcanofirestone1 {
+    giveitem(ITEM_FIRE_STONE)
+    removeobject(8)
+    releaseall
+}
+
+script volcanomoonstone1 {
+    giveitem(ITEM_MOON_STONE)
+    removeobject(12)
+    releaseall
+}
+
+
+script Volcano_hiker2{
+    trainerbattle_single(TRAINER_VOLCANO_HIKER2, vhike2_Intro, vhike2_Outro)
+    msgbox(PostBattle_vhike1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vhike2_Outro{
+    "I haven't found anything yet."
+    }
+
+text vhike2_Intro{
+    "I heard there were rare pokemon here"
+}
+
+text PostBattle_vhike2{
+    "Maybe I should train harder.."
+}
+
+script Volcano_hiker3{
+    trainerbattle_single(TRAINER_VOLCANO_HIKER3, vhike3_Intro, vhike3_Outro)
+    msgbox(PostBattle_vhike1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vhike3_Outro{
+    "It wasn't easy."
+    }
+
+text vhike3_Intro{
+    "I evolved my pokemon!"
+}
+
+text PostBattle_vhike3{
+    "Maybe I should train harder.."
+}
+
+script Volcano_hiker4{
+    trainerbattle_single(TRAINER_VOLCANO_HIKER4, vhike4_Intro, vhike4_Outro)
+    msgbox(PostBattle_vhike4, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text vhike4_Outro{
+    "Keep your eyes peeled"
+    }
+
+text vhike4_Intro{
+    "Watch out for dangerous pokemon"
+}
+
+text PostBattle_vhike4{
+    "Maybe I should train harder.."
+}

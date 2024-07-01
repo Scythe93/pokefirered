@@ -1360,3 +1360,63 @@ Text_TestMsg::
 	.include "data/text/save.inc"
 	.include "data/text/new_game_intro.inc"
 	.include "data/text/pokedude.inc"
+
+	.include "data/maps/ViridianForest2/scripts.inc"
+	.include "data/maps/ViridianForest2/text.inc"
+
+	.include "data/maps/ViridianForest3/scripts.inc"
+	.include "data/maps/ViridianForest3/text.inc"
+
+	.include "data/maps/ViridianAbandonedHouse/scripts.inc"
+	.include "data/maps/ViridianAbandonedHouse/text.inc"
+
+	.include "data/maps/ViridianAbandonedHouse2/scripts.inc"
+	.include "data/maps/ViridianAbandonedHouse2/text.inc"
+
+	.include "data/maps/Route3Cave/scripts.inc"
+	.include "data/maps/Route3Cave/text.inc"
+
+	.include "data/maps/MewCave1/scripts.inc"
+	.include "data/maps/MewCave1/text.inc"
+
+	.include "data/maps/Route102/scripts.inc"
+	.include "data/maps/Route102/text.inc"
+
+	.include "data/maps/Route162/scripts.inc"
+	.include "data/maps/Route162/text.inc"
+
+	.include "data/maps/Route163/scripts.inc"
+	.include "data/maps/Route163/text.inc"
+
+	.include "data/maps/route163cave/scripts.inc"
+	.include "data/maps/route163cave/text.inc"
+
+	.include "data/maps/Route13Volcano1/scripts.inc"
+	.include "data/maps/Route13Volcano1/text.inc"
+
+	.include "data/maps/route13Volcano2/scripts.inc"
+	.include "data/maps/route13Volcano2/text.inc"
+
+	.include "data/maps/Route13Volcano3/scripts.inc"
+	.include "data/maps/Route13Volcano3/text.inc"
+
+	.include "data/maps/route13Volcano4/scripts.inc"
+	.include "data/maps/route13Volcano4/text.inc"
+
+	.include "data/maps/SafariZone2/scripts.inc"
+	.include "data/maps/SafariZone2/text.inc"
+
+	.include "data/maps/SafariZone3/scripts.inc"
+	.include "data/maps/SafariZone3/text.inc"
+
+	.include "data/maps/SafariZone4/scripts.inc"
+	.include "data/maps/SafariZone4/text.inc"
+
+	.include "data/maps/SafariZone5/scripts.inc"
+	.include "data/maps/SafariZone5/text.inc"
+
+	.include "data/maps/Route21NorthForest1/scripts.inc"
+	.include "data/maps/Route21NorthForest1/text.inc"
+
+	.include "data/maps/ViridianForestCave1/scripts.inc"
+	.include "data/maps/ViridianForestCave1/text.inc"

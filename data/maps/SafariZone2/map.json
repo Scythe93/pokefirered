@@ -1,0 +1,41 @@
+{
+  "id": "MAP_SAFARI_ZONE2",
+  "name": "SafariZone2",
+  "layout": "LAYOUT_SAFARI_ZONE2",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_SAFARI_ZONE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_SAFARI_ZONE_CENTER",
+      "offset": 8,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SAFARI_ZONE3",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

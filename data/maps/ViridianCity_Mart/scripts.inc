@@ -66,6 +66,9 @@ ViridianCity_Mart_EventScript_Clerk::
 	.align 2
 ViridianCity_Mart_Items::
 	.2byte ITEM_POKE_BALL
+	.2byte ITEM_PREMIER_BALL
+	.2byte ITEM_NET_BALL
+	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL

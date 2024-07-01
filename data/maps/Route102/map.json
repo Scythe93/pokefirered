@@ -1,0 +1,70 @@
+{
+  "id": "MAP_ROUTE102",
+  "name": "Route102",
+  "layout": "LAYOUT_ROUTE102",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ROUTE_10",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE10",
+      "offset": 51,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "12"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "item": "ITEM_WATER_STONE",
+      "flag": "FLAG_0x8FC",
+      "quantity": 1,
+      "underfoot": false
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 51,
+      "elevation": 0,
+      "item": "ITEM_SUN_STONE",
+      "flag": "FLAG_0x8F9",
+      "quantity": 1,
+      "underfoot": false
+    },
+    {
+      "type": "hidden_item",
+      "x": 28,
+      "y": 49,
+      "elevation": 0,
+      "item": "ITEM_MOON_STONE",
+      "flag": "FLAG_0x8F8",
+      "quantity": 1,
+      "underfoot": false
+    }
+  ]
+}

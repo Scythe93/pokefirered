@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -82,21 +82,21 @@
     },
     {
       "x": 20,
-      "y": 34,
+      "y": 39,
       "elevation": 3,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "3"
     },
     {
       "x": 21,
-      "y": 34,
+      "y": 39,
       "elevation": 3,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "4"
     },
     {
       "x": 22,
-      "y": 34,
+      "y": 39,
       "elevation": 0,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "5"
@@ -123,27 +123,6 @@
       "dest_warp_id": "2"
     },
     {
-      "x": 30,
-      "y": 34,
-      "elevation": 3,
-      "dest_map": "MAP_SAFARI_ZONE_CENTER",
-      "dest_warp_id": "3"
-    },
-    {
-      "x": 31,
-      "y": 34,
-      "elevation": 3,
-      "dest_map": "MAP_SAFARI_ZONE_CENTER",
-      "dest_warp_id": "4"
-    },
-    {
-      "x": 32,
-      "y": 34,
-      "elevation": 0,
-      "dest_map": "MAP_SAFARI_ZONE_CENTER",
-      "dest_warp_id": "5"
-    },
-    {
       "x": 43,
       "y": 8,
       "elevation": 0,
@@ -151,7 +130,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

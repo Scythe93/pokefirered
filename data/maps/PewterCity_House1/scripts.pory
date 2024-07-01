@@ -1,0 +1,46 @@
+raw`.set LOCALID_NIDORAN, 3
+
+PewterCity_House1_MapScripts::
+	.byte 0
+
+PewterCity_House1_EventScript_BaldingMan::
+	msgbox PewterCity_House1_Text_TradeMonsAreFinicky, MSGBOX_NPC
+	end
+
+PewterCity_House1_EventScript_LittleBoy::
+	lock
+	msgbox PewterCity_House1_Text_NidoranSit
+	call PewterCity_House1_EventScript_DoNidoranCry
+	release
+	end
+
+PewterCity_House1_EventScript_Nidoran::
+	lock
+	faceplayer
+	call PewterCity_House1_EventScript_DoNidoranCry
+	applymovement LOCALID_NIDORAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+PewterCity_House1_EventScript_DoNidoranCry::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	waitse
+	playmoncry SPECIES_NIDORAN_M, CRY_MODE_NORMAL
+	msgbox PewterCity_House1_Text_Nidoran
+	waitmoncry
+	call EventScript_RestorePrevTextColor
+	return
+`
+
+script DeepSeaFisherman {
+    lockall
+    msgbox(format("These are the deepest seas in the region.\N Never know what you might catch"))
+    releaseall
+}
+
+script DeepSeaFisherman2 {
+    lockall
+    msgbox(format("It's good to try using different rods!\N You might find something new on each one!"))
+    releaseall
+}

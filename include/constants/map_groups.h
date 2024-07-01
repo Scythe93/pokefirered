@@ -136,6 +136,14 @@
 #define MAP_SIX_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM (120 | (1 << 8))
 #define MAP_SIX_ISLAND_PATTERN_BUSH              (121 | (1 << 8))
 #define MAP_SIX_ISLAND_ALTERING_CAVE             (122 | (1 << 8))
+#define MAP_VIRIDIAN_FOREST2                     (123 | (1 << 8))
+#define MAP_VIRIDIAN_FOREST3                     (124 | (1 << 8))
+#define MAP_MEW_CAVE1                            (125 | (1 << 8))
+#define MAP_SAFARI_ZONE2                         (126 | (1 << 8))
+#define MAP_SAFARI_ZONE3                         (127 | (1 << 8))
+#define MAP_SAFARI_ZONE4                         (128 | (1 << 8))
+#define MAP_SAFARI_ZONE5                         (129 | (1 << 8))
+#define MAP_VIRIDIAN_FOREST_CAVE1                (130 | (1 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_NAVEL_ROCK_EXTERIOR                       (0 | (2 << 8))
@@ -266,6 +274,16 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE (63 | (3 << 8))
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (64 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (65 | (3 << 8))
+#define MAP_ROUTE3CAVE                           (66 | (3 << 8))
+#define MAP_ROUTE102                             (67 | (3 << 8))
+#define MAP_ROUTE162                             (68 | (3 << 8))
+#define MAP_ROUTE163                             (69 | (3 << 8))
+#define MAP_ROUTE163CAVE                         (70 | (3 << 8))
+#define MAP_ROUTE13VOLCANO1                      (71 | (3 << 8))
+#define MAP_ROUTE13VOLCANO2                      (72 | (3 << 8))
+#define MAP_ROUTE13VOLCANO3                      (73 | (3 << 8))
+#define MAP_ROUTE13VOLCANO4                      (74 | (3 << 8))
+#define MAP_ROUTE21NORTH_FOREST1                 (75 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))
@@ -280,6 +298,8 @@
 #define MAP_VIRIDIAN_CITY_MART              (3 | (5 << 8))
 #define MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F (4 | (5 << 8))
 #define MAP_VIRIDIAN_CITY_POKEMON_CENTER_2F (5 | (5 << 8))
+#define MAP_VIRIDIAN_ABANDONED_HOUSE        (6 | (5 << 8))
+#define MAP_VIRIDIAN_ABANDONED_HOUSE2       (7 | (5 << 8))
 
 // gMapGroup_IndoorPewter
 #define MAP_PEWTER_CITY_MUSEUM_1F         (0 | (6 << 8))

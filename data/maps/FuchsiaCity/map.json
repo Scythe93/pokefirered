@@ -333,9 +333,18 @@
       "elevation": 0,
       "dest_map": "MAP_FUCHSIA_CITY_HOUSE3",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "12"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

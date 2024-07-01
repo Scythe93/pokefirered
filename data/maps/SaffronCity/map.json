@@ -35,7 +35,6 @@
       "direction": "right"
     }
   ],
-  "connections_no_include": true,
   "object_events": [
     {
       "type": "object",
@@ -353,9 +352,18 @@
       "elevation": 0,
       "dest_map": "MAP_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "12"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -429,5 +437,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SaffronCity_EventScript_TrainerFanClubSign"
     }
-  ]
+  ],
+  "connections_no_include": true
 }

@@ -1,0 +1,52 @@
+mapscripts route163cave_MapScripts {
+    maps_script_on_transition
+}
+
+script Route163Cave_Sign {
+    lockall
+    msgbox("Dead Man's Fishing Hole.")
+    releaseall
+}
+
+script cavetest1 {
+    lockall
+    msgbox(format("pepe recieved an Ultra Ball. You should use it in the fishing hole."))
+     releaseall
+}
+
+script test1 {
+    lockall
+    if(!flag(FLAG_WONDER_CARD_UNUSED_9)){
+        showmonpic(SPECIES_GENGAR, 10,3)
+        msgbox(format("Do you want this Gengar?"), MSGBOX_YESNO)
+        if(var(VAR_RESULT) == NO) {
+            msgbox(format("Ill choose another"))
+
+        }
+        if(var(VAR_RESULT) == YES){
+            givemon(SPECIES_GENGAR, 50, ITEM_ORAN_BERRY)
+            playfanfare(MUS_OBTAIN_ITEM)
+            setflag(FLAG_WONDER_CARD_UNUSED_9)
+        }
+    }
+    hidemonpic
+    releaseall
+    }
+    
+
+//This is Purrfect Doodle's script. saved to use as an example
+    //showmonpic(SPECIES_SPHEAL, 10, 3)
+//msgbox(format("Do you choose Spheal,\nsoul of the crashing sea waves?"), MSGBOX_YESNO)
+//if (var(VAR_RESULT) == NO || var(VAR_RESULT) == MULTI_B_PRESSED) {
+  //hidemonpic
+  //msgbox(format("Prof: Take the time you need."))
+  //closemessage
+  //return
+//} elif (var(VAR_RESULT) == YES) {
+  //givemon(SPECIES_SPHEAL...)
+  //playfanfare(MUS_OBTAIN_ITEM)
+  //message(format("{PLAYER} received the Pokémon Spheal! It's the best Pokémon in the world!"))
+  //waitmessage
+  //waitfanfare
+  //hidemonpic
+//}

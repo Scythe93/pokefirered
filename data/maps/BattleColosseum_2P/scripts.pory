@@ -1,0 +1,17 @@
+mapscripts BattleColosseum_2P_MapScripts {
+    
+}
+
+script FairyFountain_Sign {
+    lockall
+    msgbox("The Great Fairy Fountain.")
+    releaseall
+}
+
+
+script safaricave1 {
+    giveitem(ITEM_ULTRA_BALL)
+    setflag(FLAG_WONDER_CARD_UNUSED_7)
+    removeobject(1)
+    releaseall
+}

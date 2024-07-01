@@ -1,0 +1,34 @@
+mapscripts ViridianAbandonedHouse2_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: PalletTown_StartRivalBattle
+
+}
+ 
+
+script PalletTown_StartRivalBattle {
+    if (!(flag(FLAG_0x305))){
+        setflag(FLAG_0x304)
+    }
+   else{
+    clearflag(FLAG_0x304)
+   }
+}
+
+
+script RivalBattle1{
+        trainerbattle_single(TRAINER_RIVAL1, Rival1_Intro, Rival1_Outro)
+    msgbox(PostBattle_Rival1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Rival1_Intro{
+    "Hey! You're the new kid in town? My name's Skidmore, but everyone calls me Skids.  Oak sent me on this mission to catch rare pokemon and conquer the Pokemon League, but that old bastard started me off with a fucking Weedle! He ain't making it easy for me!  It doesn't matter though. I'm still going to be the very best, like no-one ever was.I'm going to beat every trainer in my way.. starting with YOU!"
+}
+
+text Rival1_Outro{
+    "Damn! You're tougher than I thought. I'll get you next time. You might have beaten me now but you're still a pussy.  I'll help you out anyway... Go to my house and talk to my sister, she will give you a Town map.  Smell ya later!"
+    }
+
+
+text PostBattle_Rival1{
+    "Smell ya later"}

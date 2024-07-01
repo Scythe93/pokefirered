@@ -746,6 +746,19 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR       740
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
+#define TRAINER_Volcano_Lass1                    744
+#define TRAINER_Volcano_Young1                   745
+#define TRAINER_VOLCANO_COOLVITO                 746
+#define TRAINER_VOLCANO_BALLTONY                 747
+#define TRAINER_VOLCANO_COOLAANAH                748
+#define TRAINER_VOLCANO_SKIDMORE                 749
+#define TRAINER_VOLCANO_HIKER1                   750
+#define TRAINER_VOLCANO_HIKER2                   751
+#define TRAINER_VOLCANO_HIKER3                   752
+#define TRAINER_VOLCANO_HIKER4                   753
+#define TRAINER_RIVAL1                           754
+
+// I added 11 so far
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.

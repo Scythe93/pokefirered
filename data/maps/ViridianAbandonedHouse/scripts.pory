@@ -1,0 +1,101 @@
+mapscripts ViridianAbandonedHouse_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: PalletTown_StartRivalBattle
+
+}
+ 
+script GameStart1 {
+    lockall
+if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
+    msgbox(format("Hello {PLAYER}, my name is Scythe. I am god of this universe. I am using professor oaks body to speak to you.\n I feel that starter pokemon are too strong, They tend to carry you through the game. So... I removed them.\n You will be starting with a Weedle.\n This rom is based around the concept of finding and catching rare pokemon. So start catching! \n My apologies if you find some type of glitch. This is my first hack. It was not easy to make this! Good luck! -Scythe"))
+    closemessage
+    playfanfare(MUS_OBTAIN_ITEM)
+    msgbox(format("{PLAYER} Recieved Weedle"))
+    givemon(SPECIES_WEEDLE, 5, ITEM_ORAN_BERRY)
+    closemessage
+   // call(NicknamePartyMon)
+    closemessage
+    special(EnableNationalPokedex)
+	setflag(FLAG_SYS_NATIONAL_DEX)
+	special(SetUnlockedPokedexFlags)
+    setvar(VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1)
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6)
+	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2)
+	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1)
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1)
+	setvar(VAR_MAP_SCENE_ROUTE22, 1)
+    setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2)
+    clearflag(FLAG_HIDE_OAK_IN_HIS_LAB)
+    setflag(0x828)
+    setflag(0x829)
+    setflag(FLAG_WONDER_CARD_UNUSED_10)
+    setflag(FLAG_0x305)
+    closemessage
+    msgbox(format("I'm going to start you off with some special pokeballs too. Buy some more at the Mart."))
+    giveitem(ITEM_POKE_BALL, 5)
+    giveitem(ITEM_PREMIER_BALL, 10)
+    giveitem(ITEM_LUXURY_BALL, 5)
+    closemessage
+    msgbox(format("Your next move is to go to your rivals house to get a TOWN MAP. It's important!"))
+    msgbox(format("You should be good to go now. Have fun! Don't forget to go to your rivals house!"))
+    closemessage
+    releaseall
+    end}
+
+else{msgbox(format("Good luck on your adventure.\n Let Scythe know about any bugs you find <3"))
+    closemessage
+    releaseall
+    end
+}
+}
+
+
+
+script GameStart2 {
+    lockall
+if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
+    msgbox("Hello")
+    setflag(FLAG_WONDER_CARD_UNUSED_10)
+    closemessage
+    msgbox(format("You should be good to go now. Have fun!"))
+    closemessage
+    releaseall
+    end}
+
+else{
+msgbox(format("Good luck on your adventure."))
+    closemessage
+    releaseall
+    end
+}
+}
+
+
+script PalletTown_StartRivalBattle {
+    if (!(flag(FLAG_0x305))){
+        setflag(FLAG_0x304)
+    }
+   else{
+    clearflag(FLAG_0x304)
+   }
+}
+
+
+script RivalBattle1{
+        trainerbattle_single(TRAINER_RIVAL1, Rival1_Intro, Rival1_Outro)
+    msgbox(PostBattle_Rival1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Rival1_Intro{
+    "Hey! You're the new kid in town?\n My name's Skidmore, but everyone calls me Skids. \n Oak sent me on this mission to catch rare pokemon and conquer the Pokemon League, but that old bastard started me off with a fucking Weedle!\n He ain't making it easy for me! \n It doesn't matter though. I'm still going to be the very best, like no-one ever was.\n I'm going to beat every trainer in my way.. starting with YOU!"
+}
+
+text Rival1_Outro{
+    "Damn! You're tougher than I thought.\n I'll get you next time. You might have beaten me now but you're still a pussy. \n I'll help you out anyway...\n Go to my house and talk to my sister, she will give you a Town map. \n Smell ya later!"
+    }
+
+
+text PostBattle_Rival1{
+    "Smell ya later"
+}

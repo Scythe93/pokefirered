@@ -322,9 +322,18 @@
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_CONDOMINIUMS_1F",
       "dest_warp_id": "5"
+    },
+    {
+      "x": 44,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "12"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
