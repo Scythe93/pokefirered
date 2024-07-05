@@ -1,51 +1,28 @@
 mapscripts ViridianAbandonedHouse_MapScripts {
-
 }
- 
-script GameStart1 {
+
+
+
+
+
+script TriggerTest1{
     lockall
-if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
-    msgbox(format("Hello {PLAYER}, my name is Scythe. I am god of this universe. I am using professor oaks body to speak to you.\N I feel that starter pokemon are too strong, They tend to carry you through the game. So... I removed them.\N You will be starting with a Weedle.\N This rom is based around the concept of finding and catching rare pokemon. So start catching! \N My apologies if you find some type of glitch. This is my first hack. It was not easy to make this! Good luck! -Scythe"))
+    msgbox("Hey!")
+    waitmessage
     closemessage
-    playfanfare(MUS_OBTAIN_ITEM)
-    msgbox(format("{PLAYER} Recieved Weedle"))
-    givemon(SPECIES_WEEDLE, 5, ITEM_ORAN_BERRY)
+    applymovement(2, trigger1)
+    waitmovement(2)
+    msgbox(format("Skidmore smells like moldy feet!"))
     closemessage
-   // call(NicknamePartyMon)
-    closemessage
-    special(EnableNationalPokedex)
-	setflag(FLAG_SYS_NATIONAL_DEX)
-	special(SetUnlockedPokedexFlags)
-    setvar(VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1)
-	setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6)
-	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2)
-	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1)
-	setvar(VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1)
-	setvar(VAR_MAP_SCENE_ROUTE22, 1)
-    setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2)
-    clearflag(FLAG_HIDE_OAK_IN_HIS_LAB)
-    setflag(0x828)
-    setflag(0x829)
-    setflag(FLAG_WONDER_CARD_UNUSED_10)
-    setflag(FLAG_0x305)
-    closemessage
-    msgbox(format("I'm going to start you off with some special pokeballs too. Buy some more at the Mart."))
-    giveitem(ITEM_POKE_BALL, 5)
-    giveitem(ITEM_PREMIER_BALL, 10)
-    giveitem(ITEM_LUXURY_BALL, 5)
-    closemessage
-    msgbox(format("You should be good to go now. Have fun!"))
-    closemessage
-    releaseall
-    end}
-
-else{msgbox(format("Good luck on your adventure.\n Let Scythe know about any bugs you find <3"))
-    closemessage
-    releaseall
-    end
-}
+    setvar(VAR_0x8014, 1)
+    removeobject(2)
 }
 
+
+movement trigger1{
+    walk_right *5
+    walk_up *4
+}
 
 
 

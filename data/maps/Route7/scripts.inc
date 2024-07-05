@@ -23,5 +23,5 @@ PrimeSign::
 
 PrimeSign_Text_0:
 # 11 "data/maps/Route7/scripts.pory"
-	.string "The Prime Rainforest./N A wide variety\n"
+	.string "The Prime Rainforest. A wide variety\n"
 	.string "of species live here.$"

@@ -1096,7 +1096,7 @@
     {
       "id": "LAYOUT_ROUTE21_NORTH",
       "name": "Route21_North_Layout",
-      "width": 24,
+      "width": 60,
       "height": 50,
       "border_width": 2,
       "border_height": 2,
@@ -2404,7 +2404,7 @@
     {
       "id": "LAYOUT_ROUTE21_SOUTH",
       "name": "Route21_South_Layout",
-      "width": 24,
+      "width": 60,
       "height": 50,
       "border_width": 2,
       "border_height": 2,
@@ -4449,7 +4449,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_UndergroundPath",
+      "secondary_tileset": "gTileset_FanClubDaycare",
       "border_filepath": "data/layouts/MewCave1/border.bin",
       "blockdata_filepath": "data/layouts/MewCave1/map.bin"
     },
@@ -4600,8 +4600,8 @@
     {
       "id": "LAYOUT_ROUTE21NORTH_FOREST1",
       "name": "Route21NorthForest1_Layout",
-      "width": 50,
-      "height": 30,
+      "width": 65,
+      "height": 50,
       "border_width": 6,
       "border_height": 4,
       "primary_tileset": "gTileset_General",
@@ -4620,6 +4620,78 @@
       "secondary_tileset": "gTileset_ViridianForest",
       "border_filepath": "data/layouts/ViridianForestCave1/border.bin",
       "blockdata_filepath": "data/layouts/ViridianForestCave1/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_NEW_LAB",
+      "name": "PalletNewLab_Layout",
+      "width": 20,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/PalletNewLab/border.bin",
+      "blockdata_filepath": "data/layouts/PalletNewLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_MOON_NEW_TUNNEL1",
+      "name": "MtMoon_NewTunnel1_Layout",
+      "width": 60,
+      "height": 80,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/MtMoon_NewTunnel1/border.bin",
+      "blockdata_filepath": "data/layouts/MtMoon_NewTunnel1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_MOON_NEW2",
+      "name": "MtMoon_New2_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtMoon_New2/border.bin",
+      "blockdata_filepath": "data/layouts/MtMoon_New2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_MOON_NEW3",
+      "name": "MtMoon_New3_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtMoon_New3/border.bin",
+      "blockdata_filepath": "data/layouts/MtMoon_New3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE2NEW_HOUSE",
+      "name": "Route2NewHouse_Layout",
+      "width": 20,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_UnusedGatehouse2",
+      "border_filepath": "data/layouts/Route2NewHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route2NewHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_NEW_LAB_BASEMENT",
+      "name": "PalletNewLabBasement_Layout",
+      "width": 20,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/PalletNewLabBasement/border.bin",
+      "blockdata_filepath": "data/layouts/PalletNewLabBasement/map.bin"
     }
   ]
 }

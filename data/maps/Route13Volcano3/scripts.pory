@@ -7,3 +7,31 @@ script volcano3ultraball {
     removeobject(1)
     releaseall
 }
+
+script RivalBattleVolcano{
+        trainerbattle_single(TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, format("You again! Nerds like you shouldn't be out here."), 
+        format("not again....."), RivalPostVolcano)
+    end
+}
+
+
+
+
+script RivalPostVolcano{
+    lockall
+    msgbox(format("I heard there were some nice fire Pokemon around this Volcano. Dangerous ones too. Anyway, I've seen everything I need to see. Smell ya later"))
+    applymovement(2, RivalLeaveVolcano)
+    setflag(FLAG_0x307)
+    waitmovement(2)
+    removeobject(2)
+    releaseall
+    end
+}
+
+movement RivalLeaveVolcano{
+    walk_left *1
+    walk_down
+    walk_left *10
+}
+
+

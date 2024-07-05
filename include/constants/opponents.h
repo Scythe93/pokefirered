@@ -757,8 +757,9 @@
 #define TRAINER_VOLCANO_HIKER3                   752
 #define TRAINER_VOLCANO_HIKER4                   753
 #define TRAINER_RIVAL1                           754
+#define TRAINER_RTE163SWIMMER1                   755
 
-// I added 11 so far
+// I added 12 so far
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.

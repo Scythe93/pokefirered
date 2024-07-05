@@ -1,0 +1,19 @@
+mapscripts MewCave1_MapScripts{
+
+}
+
+script MewEncounter1{
+    lockall
+    msgbox("Mew?")
+    waitmessage
+    closemessage
+    playmoncry(SPECIES_MEW, CRY_MODE_NORMAL)
+    waitmoncry
+    setwildbattle(SPECIES_MEW, 25, ITEM_NONE)
+    dowildbattle 
+    removeobject(1)
+    setflag(FLAG_0x0B3)
+    releaseall
+    end
+
+}

@@ -14,23 +14,20 @@ script cavetest1 {
      releaseall
 }
 
-script test1 {
-    lockall
-    if(!flag(FLAG_WONDER_CARD_UNUSED_9)){
-        showmonpic(SPECIES_GENGAR, 10,3)
-        msgbox(format("Do you want this Gengar?"), MSGBOX_YESNO)
-        if(var(VAR_RESULT) == NO) {
-            msgbox(format("Ill choose another"))
+script caveitemball2{
+    giveitem(ITEM_MOON_STONE)
+    setflag(FLAG_0x0B0)
+    removeobject(3)
+    closemessage
+    end
+}
 
-        }
-        if(var(VAR_RESULT) == YES){
-            givemon(SPECIES_GENGAR, 50, ITEM_ORAN_BERRY)
-            playfanfare(MUS_OBTAIN_ITEM)
-            setflag(FLAG_WONDER_CARD_UNUSED_9)
-        }
-    }
-    hidemonpic
-    releaseall
+script test1 {
+    giveitem(ITEM_NET_BALL)
+    setflag(FLAG_WONDER_CARD_UNUSED_9)
+    removeobject(2)
+    closemessage
+    end
     }
     
 

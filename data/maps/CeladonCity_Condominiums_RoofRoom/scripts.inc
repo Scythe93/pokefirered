@@ -104,3 +104,6 @@ CeladonCity_Condominiums_RoofRoom_EventScript_UnionRoom::
 CeladonCity_Condominiums_RoofRoom_EventScript_ExitBlackboard::
 	releaseall
 	end
+
+
+

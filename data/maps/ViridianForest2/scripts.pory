@@ -1,0 +1,120 @@
+mapscripts ViridianForest2_MapScripts{
+    }
+
+script RivalBattle2{
+    lockall
+    msgbox("Yo!")
+    waitmessage
+    closemessage
+    applymovement(1, rivalnorth)
+    waitmovement(1)
+    msgbox(format("What are you doing out here in the rain? You grow your team yet?... I came back here to check if there's any rare Pokemon."))
+    closemessage
+    trainerbattle_single(TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, "You ready for another battle?!", "ouch.", Rival2WalkAway)
+    
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+
+}
+
+script Rival2WalkAway{
+    msgbox(format("I see you have expanded beyond that damn Caterpie. Good job."))
+    msgbox(format("Keep it up. I'll be seeing you again... Smell ya later!"))
+    closemessage
+    applymovement(1, rivalescape1)
+    waitmovement(1)
+    removeobject(1)
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+    setvar(VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1)
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+    removeobject(1)
+    releaseall 
+    end
+}
+
+movement rivalnorth {
+    walk_down *4
+    walk_left *9
+    
+}
+
+movement rivalescape1{
+    walk_right *9
+    walk_up *8
+}
+
+
+
+
+script RivalBattle22{
+    lockall
+    msgbox("Yo!")
+    waitmessage
+    closemessage
+    applymovement(1, rivalnorth2)
+    waitmovement(1)
+    msgbox(format("What are you doing out here in the rain? You grow your team yet?... I came back here to check if there's any rare Pokemon."))
+    closemessage
+    trainerbattle_single(TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, "You ready for another battle?!", "ouch.", Rival22WalkAway)
+    
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+
+}
+
+script Rival22WalkAway{
+    msgbox(format("I see you have expanded beyond that damn Caterpie. Good job."))
+    msgbox(format("Keep it up. I'll be seeing you again... Smell ya later!"))
+    closemessage
+    applymovement(1, rivalescape12)
+    waitmovement(1)
+    removeobject(1)
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+    setvar(VAR_MAP_SCENE_ROUTE22, 1)
+    setflag(FLAG_HIDE_ROUTE_22_RIVAL)
+    setvar(VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 0)
+    clearflag(FLAG_HIDE_CERULEAN_RIVAL)
+    removeobject(1)
+    releaseall 
+    end
+}
+
+movement rivalnorth2 {
+    walk_down *5
+    walk_left *9
+    
+}
+
+movement rivalescape12{
+    walk_right *9
+    walk_up *8
+}
+
+
+script celebi1{
+    lockall
+    playmoncry(SPECIES_CELEBI, CRY_MODE_NORMAL)
+    applymovement(2, celebirun1)
+    waitmovement(2)
+    releaseall
+    end
+}
+
+movement celebirun1{
+    walk_fast_left *4
+    jump_2_down *2
+}
+
+script celebi2{
+    lockall
+    playmoncry(SPECIES_CELEBI, CRY_MODE_NORMAL)
+    applymovement(2, celebirun2)
+    waitmovement(2)
+    removeobject(2)
+    setflag(FLAG_0x306)
+    releaseall
+    end}
+
+    movement celebirun2{
+    walk_fast_down *2
+    jump_2_down *3
+}
+

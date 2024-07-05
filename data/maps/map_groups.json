@@ -49,13 +49,6 @@
     "TradeCenter",
     "RecordCorner",
     "BattleColosseum_4P",
-    "UnionRoom"
-  ],
-  "gMapGroup_Dungeons": [
-    "ViridianForest",
-    "MtMoon_1F",
-    "MtMoon_B1F",
-    "MtMoon_B2F",
     "SSAnne_Exterior",
     "SSAnne_1F_Corridor",
     "SSAnne_2F_Corridor",
@@ -82,6 +75,13 @@
     "SSAnne_B1F_Room4",
     "SSAnne_B1F_Room5",
     "SSAnne_1F_Room6",
+    "UnionRoom"
+  ],
+  "gMapGroup_Dungeons": [
+    "ViridianForest",
+    "MtMoon_1F",
+    "MtMoon_B1F",
+    "MtMoon_B2F",
     "UndergroundPath_NorthEntrance",
     "UndergroundPath_NorthSouthTunnel",
     "UndergroundPath_SouthEntrance",
@@ -182,7 +182,10 @@
     "SafariZone3",
     "SafariZone4",
     "SafariZone5",
-    "ViridianForestCave1"
+    "ViridianForestCave1",
+    "MtMoon_NewTunnel1",
+    "MtMoon_New2",
+    "MtMoon_New3"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",
@@ -328,7 +331,9 @@
     "PalletTown_PlayersHouse_1F",
     "PalletTown_PlayersHouse_2F",
     "PalletTown_RivalsHouse",
-    "PalletTown_ProfessorOaksLab"
+    "PalletTown_ProfessorOaksLab",
+    "PalletNewLab",
+    "PalletNewLabBasement"
   ],
   "gMapGroup_IndoorViridian": [
     "ViridianCity_House",
@@ -444,7 +449,8 @@
     "Route2_ViridianForest_SouthEntrance",
     "Route2_House",
     "Route2_EastBuilding",
-    "Route2_ViridianForest_NorthEntrance"
+    "Route2_ViridianForest_NorthEntrance",
+    "Route2NewHouse"
   ],
   "gMapGroup_IndoorRoute4": [
     "Route4_PokemonCenter_1F",

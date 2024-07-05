@@ -28,8 +28,8 @@
       "x": 4,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_SAFARI_ZONE3",
-      "dest_warp_id": "1"
+      "dest_map": "MAP_BATTLE_COLOSSEUM_2P",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

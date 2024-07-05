@@ -191,11 +191,11 @@
 
 // Unused?
 #define FLAG_0x0AF               0x0AF  -- test pokeball
-#define FLAG_0x0B0               0x0B0
-#define FLAG_0x0B1               0x0B1
-#define FLAG_0x0B2               0x0B2
-#define FLAG_0x0B3               0x0B3
-#define FLAG_0x0B4               0x0B4
+#define FLAG_0x0B0               0x0B0 //
+#define FLAG_0x0B1               0x0B1 //
+#define FLAG_0x0B2               0x0B2 //
+#define FLAG_0x0B3               0x0B3 // mew
+#define FLAG_0x0B4               0x0B4 // lugia
 #define FLAG_0x0B5               0x0B5
 #define FLAG_0x0B6               0x0B6
 #define FLAG_0x0B7               0x0B7
@@ -713,7 +713,7 @@
 #define FLAG_WONDER_CARD_UNUSED_7                        0x2B0 // used
 #define FLAG_WONDER_CARD_UNUSED_8                        0x2B1 // used
 #define FLAG_WONDER_CARD_UNUSED_9                        0x2B2 // used
-#define FLAG_WONDER_CARD_UNUSED_10                       0x2B3
+#define FLAG_WONDER_CARD_UNUSED_10                       0x2B3 // using it for starter
 #define FLAG_WONDER_CARD_UNUSED_11                       0x2B4
 #define FLAG_WONDER_CARD_UNUSED_12                       0x2B5
 #define FLAG_WONDER_CARD_UNUSED_13                       0x2B6
@@ -797,11 +797,11 @@
 #define FLAG_0x300               0x300 // used
 #define FLAG_0x301               0x301 //
 #define FLAG_0x302               0x302 //
-#define FLAG_0x303               0x303
-#define FLAG_0x304               0x304
+#define FLAG_0x303               0x303 //
+#define FLAG_0x304               0x304 //
 #define FLAG_0x305               0x305
-#define FLAG_0x306               0x306
-#define FLAG_0x307               0x307
+#define FLAG_0x306               0x306 //
+#define FLAG_0x307               0x307//
 #define FLAG_0x308               0x308
 #define FLAG_0x309               0x309
 #define FLAG_0x30A               0x30A

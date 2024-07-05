@@ -1,0 +1,19 @@
+mapscripts MtMoon_New2_MapScripts{
+
+}
+
+script LugiaEncounter1{
+    lockall
+    msgbox(".........")
+    waitmessage
+    closemessage
+    playmoncry(SPECIES_LUGIA, CRY_MODE_NORMAL)
+    waitmoncry
+    setwildbattle(SPECIES_LUGIA, 50, ITEM_NONE)
+    dowildbattle 
+    removeobject(1)
+    setflag(FLAG_0x0B4)
+    releaseall
+    end
+
+}

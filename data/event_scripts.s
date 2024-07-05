@@ -1420,3 +1420,21 @@ Text_TestMsg::
 
 	.include "data/maps/ViridianForestCave1/scripts.inc"
 	.include "data/maps/ViridianForestCave1/text.inc"
+
+	.include "data/maps/PalletNewLab/scripts.inc"
+	.include "data/maps/PalletNewLab/text.inc"
+
+	.include "data/maps/MtMoon_NewTunnel1/scripts.inc"
+	.include "data/maps/MtMoon_NewTunnel1/text.inc"
+
+	.include "data/maps/MtMoon_New2/scripts.inc"
+	.include "data/maps/MtMoon_New2/text.inc"
+
+	.include "data/maps/MtMoon_New3/scripts.inc"
+	.include "data/maps/MtMoon_New3/text.inc"
+
+	.include "data/maps/Route2NewHouse/scripts.inc"
+	.include "data/maps/Route2NewHouse/text.inc"
+
+	.include "data/maps/PalletNewLabBasement/scripts.inc"
+	.include "data/maps/PalletNewLabBasement/text.inc"

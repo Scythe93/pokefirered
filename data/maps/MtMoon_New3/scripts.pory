@@ -1,0 +1,25 @@
+mapscripts MtMoon_New3_MapScripts{
+
+}
+
+script Clefairys1{
+    lockall
+    playmoncry(SPECIES_CLEFAIRY, CRY_MODE_NORMAL)
+    msgbox("Faiiiiiry! Faiiiiiiry!")
+    waitmessage
+    closemessage
+    releaseall
+    end
+}
+
+script moonscientist1{
+    lockall
+    msgbox(format("I made my way in here to try and study the pokemon species that can be found in this deep forgotten tunnel of Mt. Moon.\N Nobody has been down this tunnel in many years. \N Unfortunately for us, these Clefairy here are blocking the path! \N Normally I would just push them out of the way, but these are a rare sub-species of Clefairy, they are Endangered and we aren't allowed to touch them!"))
+    waitmessage
+    closemessage
+    msgbox(format("Maybe I can just come back in the future and they will be out of the way......"))
+    waitmessage
+    closemessage
+    releaseall
+    end
+}

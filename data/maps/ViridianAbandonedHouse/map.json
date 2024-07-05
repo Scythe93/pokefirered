@@ -31,16 +31,30 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BLUE",
+      "graphics_id": "OBJ_EVENT_GFX_CELEBI",
       "x": 12,
-      "y": 8,
+      "y": 5,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FLAG_0x304",
+      "script": "celebi1",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UndergroundPath_NorthEntrance_EventScript_Saige",
       "flag": "0"
     }
   ],
@@ -61,7 +75,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_0x8014",
+      "var_value": "0",
+      "script": "TriggerTest1"
+    }
   ],
   "bg_events": [
 

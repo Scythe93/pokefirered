@@ -1,8 +1,8 @@
 static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_MR_MIME] = 
     {
-        .nickname = _("MIMIEN"),
-        .species = SPECIES_MR_MIME,
+        .nickname = _("Rayquaza"),
+        .species = SPECIES_RAYQUAZA,
         .ivs = {20, 15, 17, 24, 23, 22},
         .abilityNum = 0,
         .otId = 1985,
@@ -13,7 +13,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("REYLEY"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_ABRA
+        .requestedSpecies = SPECIES_DRAGONITE
     }, 
     [INGAME_TRADE_JYNX] = 
     {
@@ -34,8 +34,8 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)
-        .nickname = _("MS. NIDO"),
-        .species = SPECIES_NIDORAN_F,
+        .nickname = _("HO OH"),
+        .species = SPECIES_HO_OH,
         .ivs = {22, 18, 25, 19, 15, 22},
         .abilityNum = 0,
         .otId = 63184,
@@ -46,7 +46,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("SAIGE"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_NIDORAN_M
+        .requestedSpecies = SPECIES_LUGIA
 #elif defined(LEAFGREEN)
         .nickname = _("MR. NIDO"),
         .species = SPECIES_NIDORAN_M,

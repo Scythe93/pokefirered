@@ -40,3 +40,13 @@ script DangerSeaSign {
     msgbox(format("WARNING: DANGEROUS SEAS AHEAD.\NDEAD END.\NTo continue to Cinnabar Island, \Nturn back and go through Seafoam Caves!"))
     releaseall
 }
+
+script r20netball{
+	giveitem(ITEM_NET_BALL)
+	setflag(FLAG_0x0B1)
+	closemessage
+	releaseall
+	end
+
+
+}

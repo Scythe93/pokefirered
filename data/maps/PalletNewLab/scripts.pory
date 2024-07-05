@@ -1,0 +1,49 @@
+mapscripts PalletNewLab_MapScripts{
+
+}
+
+script GameStart1 {
+    lockall
+if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
+    msgbox(format("Hello {PLAYER}, I heard you're new in town. I'm Professoar Oak. I study all the different species of pokemon in the region.\N I have a request from you, I need you to help me gather data on all the different pokemon in Kanto.\N I need you to find, and catch as many rare pokemon as you can. You will need to search, far and wide.. to understand, the power that's inside."))
+    msgbox(format("You will need a pokemon to start you off, I usually carry a supply of powerful pokemon on hand like Charmanders and Bulbasaurs, but unfortunately everything I have right now is sick.\N This Caterpie should do the job though. Use Caterpie to begin your journey, you will surely find some powerful pokemon to help carry you through the region."))
+    msgbox(format("Conquer all of Kanto, collect all 8 badges, then beat the Pokemon League. While collecting data on rare pokemon all the way.\N Come back to me after you beat the pokemon league, and I will have something for you."))
+    msgbox(format("Good luck! and watch out for my Grandson, he is an arrogant prick but I sent him on the same mission as you. I'm sure you will run into him along the way."))
+    closemessage
+    playfanfare(MUS_OBTAIN_ITEM)
+    msgbox(format("{PLAYER} Recieved Caterpie"))
+    givemon(SPECIES_CATERPIE, 5, ITEM_ORAN_BERRY)
+    closemessage
+   // call(NicknamePartyMon)
+    closemessage
+    special(EnableNationalPokedex)
+	setflag(FLAG_SYS_NATIONAL_DEX)
+	special(SetUnlockedPokedexFlags)
+    setvar(VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1)
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6)
+	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2)
+	setvar(VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1)
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1)
+	setvar(VAR_MAP_SCENE_ROUTE22, 1)
+    setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2)
+    clearflag(FLAG_HIDE_OAK_IN_HIS_LAB)
+    setflag(0x828)
+    setflag(0x829)
+    setflag(FLAG_WONDER_CARD_UNUSED_10)
+    setflag(FLAG_0x305)
+    closemessage
+    msgbox(format("I'm going to start you off with these fancy looking pokeballs too. They function the same as a regular pokeball but look cooler. Buy some more at the Mart."))
+    giveitem(ITEM_PREMIER_BALL, 10)
+    giveitem(ITEM_LUXURY_BALL, 5)
+    closemessage
+    msgbox(format("You should be good to go now. Have fun!"))
+    closemessage
+    releaseall
+    end}
+
+else{msgbox(format("Good luck on your adventure.\n Let Scythe know about any bugs you find <3"))
+    closemessage
+    releaseall
+    end
+}
+}

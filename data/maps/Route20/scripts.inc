@@ -75,6 +75,18 @@ DangerSeaSign::
 	return
 
 
+r20netball::
+# 45 "data/maps/Route20/scripts.pory"
+	giveitem ITEM_NET_BALL
+# 46 "data/maps/Route20/scripts.pory"
+	setflag FLAG_0x0B1
+# 47 "data/maps/Route20/scripts.pory"
+	closemessage
+# 48 "data/maps/Route20/scripts.pory"
+	releaseall
+	end
+
+
 DangerSeaSign_Text_0:
 # 40 "data/maps/Route20/scripts.pory"
 	.string "WARNING: DANGEROUS SEAS AHEAD.\n"

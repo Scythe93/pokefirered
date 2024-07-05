@@ -8,6 +8,6 @@ Route7_EventScript_UndergroundPathSign::
 
 script PrimeSign {
     lockall
-    msgbox(format("The Prime Rainforest./N A wide variety of species live here."))
+    msgbox(format("The Prime Rainforest. A wide variety of species live here."))
     releaseall
 }

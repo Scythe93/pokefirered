@@ -1,0 +1,21 @@
+mapscripts Route163_MapScripts{
+
+}
+
+
+script r163swimmer1{
+    trainerbattle_single(TRAINER_RTE163SWIMMER1, vLass_Intro, vLass_Outro)
+    msgbox(PostBattle_vLass, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text swimmerintro1{
+    "Wow! I wasn't expecting to see another person all the way out here!"
+}
+text swimmeroutro1{
+    "I should have known you'd be tough!"
+}
+text swimmerpost1{
+    "Careful! We're far from shore!"
+}
