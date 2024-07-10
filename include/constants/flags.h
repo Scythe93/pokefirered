@@ -196,11 +196,11 @@
 #define FLAG_0x0B2               0x0B2 //
 #define FLAG_0x0B3               0x0B3 // mew
 #define FLAG_0x0B4               0x0B4 // lugia
-#define FLAG_0x0B5               0x0B5
-#define FLAG_0x0B6               0x0B6
-#define FLAG_0x0B7               0x0B7
-#define FLAG_0x0B8               0x0B8
-#define FLAG_0x0B9               0x0B9
+#define FLAG_0x0B5               0x0B5 // moonstones mt moon
+#define FLAG_0x0B6               0x0B6 // another1
+#define FLAG_0x0B7               0x0B7 //
+#define FLAG_0x0B8               0x0B8 //
+#define FLAG_0x0B9               0x0B9 //
 #define FLAG_0x0BA               0x0BA
 #define FLAG_0x0BB               0x0BB
 #define FLAG_0x0BC               0x0BC

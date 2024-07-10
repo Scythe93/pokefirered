@@ -1,0 +1,23 @@
+raw`
+Route18_EastEntrance_2F_MapScripts::
+	.byte 0
+
+Route18_EastEntrance_2F_EventScript_LeftBinoculars::
+	msgbox Route18_EastEntrance_2F_Text_PalletTownInWest, MSGBOX_SIGN
+	end
+
+Route18_EastEntrance_2F_EventScript_RightBinoculars::
+	msgbox Route18_EastEntrance_2F_Text_PeopleSwimming, MSGBOX_SIGN
+	end
+
+`
+
+script Aanahpretty1{
+    lockall
+    msgbox(format("Aanah is so pretty <3333 I think I am in love."))
+    closemessage
+    msgbox(format("I think I'm going to message her on instagram and offer her money for picutures of the bottom of her feet <333"))
+    closemessage
+    releaseall
+    end
+}

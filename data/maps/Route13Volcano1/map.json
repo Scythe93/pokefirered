@@ -248,13 +248,6 @@
   ],
   "warp_events": [
     {
-      "x": 27,
-      "y": 60,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "12"
-    },
-    {
       "x": 53,
       "y": 51,
       "elevation": 0,

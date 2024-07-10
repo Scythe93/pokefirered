@@ -1,44 +1,50 @@
+# 1 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+
+# 2 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 Route18_EastEntrance_2F_MapScripts::
+# 3 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	.byte 0
+# 4 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 
+# 5 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 Route18_EastEntrance_2F_EventScript_LeftBinoculars::
+# 6 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	msgbox Route18_EastEntrance_2F_Text_PalletTownInWest, MSGBOX_SIGN
+# 7 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	end
+# 8 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 
+# 9 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 Route18_EastEntrance_2F_EventScript_RightBinoculars::
+# 10 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	msgbox Route18_EastEntrance_2F_Text_PeopleSwimming, MSGBOX_SIGN
+# 11 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	end
 
-Route18_EastEntrance_2F_EventScript_Haden::
-	lock
-	faceplayer
-	setvar VAR_0x8008, INGAME_TRADE_LICKITUNG
-	call EventScript_GetInGameTradeSpeciesInfo
-	goto_if_set FLAG_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
-	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route18_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_ChooseMonForInGameTrade
-	goto_if_ge VAR_0x8004, PARTY_SIZE, Route18_EastEntrance_2F_EventScript_DeclineTrade
-	call EventScript_GetInGameTradeSpecies
-	goto_if_ne VAR_RESULT, VAR_0x8009, Route18_EastEntrance_2F_EventScript_NotRequestedMon
-	call EventScript_DoInGameTrade
-	msgbox Trade_Text_HeyThanks
-	setflag FLAG_DID_MARC_TRADE
-	release
+Aanahpretty1::
+# 16 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	lockall
+# 17 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	msgbox Aanahpretty1_Text_0
+# 18 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	closemessage
+# 19 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	msgbox Aanahpretty1_Text_1
+# 20 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	closemessage
+# 21 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	releaseall
 	end
 
-Route18_EastEntrance_2F_EventScript_DeclineTrade::
-	msgbox Trade_Text_AwwOhWell
-	release
-	end
 
-Route18_EastEntrance_2F_EventScript_NotRequestedMon::
-	bufferspeciesname STR_VAR_1, VAR_0x8009
-	msgbox Trade_Text_WhatThatsNoMon
-	release
-	end
+Aanahpretty1_Text_0:
+# 17 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	.string "Aanah is so pretty <3333 I think I\n"
+	.string "am in love.$"
 
-Route18_EastEntrance_2F_EventScript_AlreadyTraded::
-	msgbox Trade_Text_IsntMyOldMonGreat
-	release
-	end
+Aanahpretty1_Text_1:
+# 19 "data/maps/Route18_EastEntrance_2F/scripts.pory"
+	.string "I think I'm going to message her on\n"
+	.string "instagram and offer her money for\l"
+	.string "picutures of the bottom of her feet\l"
+	.string "<333$"

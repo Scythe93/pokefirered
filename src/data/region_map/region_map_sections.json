@@ -871,6 +871,14 @@
       "y": 0,
       "width": 0,
       "height": 0
+    },
+    {
+      "map_section": "MAPSEC_LITTLEROOT_TOWN",
+      "name": "Oak's Lab",
+      "x": 4,
+      "y": 11,
+      "width": 1,
+      "height": 1
     }
   ]
 }

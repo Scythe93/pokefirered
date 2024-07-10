@@ -23,6 +23,11 @@
       "map": "MAP_ROUTE20",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_CINNABAR_SOUTH_ROUTE",
+      "offset": -16,
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -132,13 +137,6 @@
       "elevation": 0,
       "dest_map": "MAP_CINNABAR_ISLAND_MART",
       "dest_warp_id": "1"
-    },
-    {
-      "x": 9,
-      "y": 12,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "12"
     }
   ],
   "coord_events": [

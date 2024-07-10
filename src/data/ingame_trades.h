@@ -48,8 +48,8 @@ static const struct InGameTrade sInGameTrades[] = {
         .sheen = 10,
         .requestedSpecies = SPECIES_LUGIA
 #elif defined(LEAFGREEN)
-        .nickname = _("MR. NIDO"),
-        .species = SPECIES_NIDORAN_M,
+        .nickname = _("AERODACTYL"),
+        .species = SPECIES_AERODACTYL,
         .ivs = {19, 25, 18, 22, 22, 15},
         .abilityNum = 0,
         .otId = 63184,
@@ -60,13 +60,13 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("SAIGE"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_NIDORAN_F
+        .requestedSpecies = SPECIES_CHARMELEON
 #endif
     }, 
     [INGAME_TRADE_FARFETCHD] = 
     {
-        .nickname = _("CH'DING"),
-        .species = SPECIES_FARFETCHD,
+        .nickname = _("DEOXYS"),
+        .species = SPECIES_DEOXYS,
         .ivs = {20, 25, 21, 24, 15, 20},
         .abilityNum = 0,
         .otId = 8810,
@@ -77,13 +77,13 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("ELYSSA"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_SPEAROW
+        .requestedSpecies = SPECIES_MEW
     }, 
     [INGAME_TRADE_NIDORINOA] = 
     {
 #if defined(FIRERED)
-        .nickname = _("NINA"),
-        .species = SPECIES_NIDORINA,
+        .nickname = _("AERODACTYL"),
+        .species = SPECIES_AERODACTYL,
         .ivs = {22, 25, 18, 19, 22, 15},
         .abilityNum = 0,
         .otId = 13637,
@@ -94,7 +94,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("TURNER"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_NIDORINO
+        .requestedSpecies = SPECIES_CHARMELEON
 #elif defined(LEAFGREEN)
         .nickname = _("NINO"),
         .species = SPECIES_NIDORINO,
@@ -113,8 +113,8 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_LICKITUNG] = 
     {
-        .nickname = _("MARC"),
-        .species = SPECIES_LICKITUNG,
+        .nickname = _("JIRACHI"),
+        .species = SPECIES_JIRACHI,
         .ivs = {24, 19, 21, 15, 23, 21},
         .abilityNum = 0,
         .otId = 1239,
@@ -126,15 +126,15 @@ static const struct InGameTrade sInGameTrades[] = {
         .otGender = MALE,
         .sheen = 10,
 #if defined(FIRERED)
-        .requestedSpecies = SPECIES_GOLDUCK
+        .requestedSpecies = SPECIES_CELEBI
 #elif defined(LEAFGREEN)
         .requestedSpecies = SPECIES_SLOWBRO
 #endif
     }, 
     [INGAME_TRADE_ELECTRODE] = 
     {
-        .nickname = _("ESPHERE"),
-        .species = SPECIES_ELECTRODE,
+        .nickname = _("ENTEI"),
+        .species = SPECIES_ENTEI,
         .ivs = {19, 16, 18, 25, 25, 19},
         .abilityNum = 1,
         .otId = 50298,
@@ -145,12 +145,12 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("CLIFTON"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_RAICHU
+        .requestedSpecies = SPECIES_TYRANITAR
     }, 
     [INGAME_TRADE_TANGELA] = 
     {
-        .nickname = _("TANGENY"),
-        .species = SPECIES_TANGELA,
+        .nickname = _("LATIAS"),
+        .species = SPECIES_LATIAS,
         .ivs = {22, 17, 25, 16, 23, 20},
         .abilityNum = 0,
         .otId = 60042,
@@ -161,7 +161,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("NORMA"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_VENONAT
+        .requestedSpecies = SPECIES_LATIOS  
     },
     [INGAME_TRADE_SEEL] = 
     {

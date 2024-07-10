@@ -920,194 +920,63 @@ PalletTown_StartRivalBattle_1:
 	return
 
 
-RivalBattle1::
-# 472 "data/maps/PalletTown/scripts.pory"
-	trainerbattle_single TRAINER_RIVAL1, RivalBattle1_Text_0, RivalBattle1_Text_1, RivalBattle1PostDialogue
-	end
-
-
-RivalBattle1PostDialogue::
-# 483 "data/maps/PalletTown/scripts.pory"
-	lockall
-# 484 "data/maps/PalletTown/scripts.pory"
-	msgbox RivalBattle1PostDialogue_Text_0
-# 485 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_TOWN_MAP
-# 486 "data/maps/PalletTown/scripts.pory"
-	special HealPlayerParty
-# 487 "data/maps/PalletTown/scripts.pory"
-	msgbox RivalBattle1PostDialogue_Text_1
-# 488 "data/maps/PalletTown/scripts.pory"
-	setvar VAR_MAP_SCENE_ROUTE22, 0
-# 489 "data/maps/PalletTown/scripts.pory"
-	clearflag FLAG_0x305
-# 490 "data/maps/PalletTown/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_22_RIVAL
-# 491 "data/maps/PalletTown/scripts.pory"
-	applymovement 9, RivalLeave
-# 492 "data/maps/PalletTown/scripts.pory"
-	waitmovement 9
-# 493 "data/maps/PalletTown/scripts.pory"
-	removeobject 9
-# 494 "data/maps/PalletTown/scripts.pory"
-	releaseall
-	end
-
-
-# 498 "data/maps/PalletTown/scripts.pory"
-RivalLeave:
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-# 499 "data/maps/PalletTown/scripts.pory"
-	walk_up
-	step_end
-
 ConvoRoadBlock1::
-# 504 "data/maps/PalletTown/scripts.pory"
+# 473 "data/maps/PalletTown/scripts.pory"
 	lockall
-# 505 "data/maps/PalletTown/scripts.pory"
+# 474 "data/maps/PalletTown/scripts.pory"
 	msgbox ConvoRoadBlock1_Text_0
-# 506 "data/maps/PalletTown/scripts.pory"
-	releaseall
-	end
-
-
-rodsandstuff::
-# 511 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_SUPER_ROD
-# 512 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_BADGE01_GET
-# 513 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_BADGE02_GET
-# 514 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_BADGE05_GET
-# 515 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_BADGE06_GET
-# 516 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_HM03_SURF
-# 517 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_HM02_FLY
-# 518 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_HM06_ROCK_SMASH
-# 519 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_HM01_CUT
-# 520 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_GOOD_ROD
-# 521 "data/maps/PalletTown/scripts.pory"
-	giveitem ITEM_BICYCLE
-# 522 "data/maps/PalletTown/scripts.pory"
-	msgbox rodsandstuff_Text_0
-# 523 "data/maps/PalletTown/scripts.pory"
-	closemessage
-# 524 "data/maps/PalletTown/scripts.pory"
+# 475 "data/maps/PalletTown/scripts.pory"
 	releaseall
 	end
 
 
 MASTERBALLS1::
-# 530 "data/maps/PalletTown/scripts.pory"
+# 483 "data/maps/PalletTown/scripts.pory"
 	giveitem ITEM_MASTER_BALL, 30
-# 531 "data/maps/PalletTown/scripts.pory"
+# 484 "data/maps/PalletTown/scripts.pory"
 	msgbox MASTERBALLS1_Text_0
-# 532 "data/maps/PalletTown/scripts.pory"
+# 485 "data/maps/PalletTown/scripts.pory"
 	closemessage
-# 533 "data/maps/PalletTown/scripts.pory"
+# 486 "data/maps/PalletTown/scripts.pory"
 	releaseall
 	end
 
 
 RARECANDIES::
-# 539 "data/maps/PalletTown/scripts.pory"
+# 492 "data/maps/PalletTown/scripts.pory"
 	giveitem ITEM_RARE_CANDY, 50
-# 540 "data/maps/PalletTown/scripts.pory"
+# 493 "data/maps/PalletTown/scripts.pory"
 	msgbox RARECANDIES_Text_0
-# 541 "data/maps/PalletTown/scripts.pory"
+# 494 "data/maps/PalletTown/scripts.pory"
 	closemessage
-# 542 "data/maps/PalletTown/scripts.pory"
+# 495 "data/maps/PalletTown/scripts.pory"
 	releaseall
 	end
 
 
 sunstones::
-# 547 "data/maps/PalletTown/scripts.pory"
+# 500 "data/maps/PalletTown/scripts.pory"
 	giveitem ITEM_SUN_STONE, 30
-# 548 "data/maps/PalletTown/scripts.pory"
+# 501 "data/maps/PalletTown/scripts.pory"
 	giveitem ITEM_MOON_STONE, 30
-# 549 "data/maps/PalletTown/scripts.pory"
+# 502 "data/maps/PalletTown/scripts.pory"
 	closemessage
-# 550 "data/maps/PalletTown/scripts.pory"
+# 503 "data/maps/PalletTown/scripts.pory"
 	releaseall
 	end
 
 
-RivalBattle1_Text_0:
-# 472 "data/maps/PalletTown/scripts.pory"
-	.string "Hey! You're the new kid in town?\n"
-	.string "Grandpa Oak sent me on this mission\l"
-	.string "to catch rare pokemon and conquer\l"
-	.string "the Pokemon League, but that old\l"
-	.string "bastard started me off with a\l"
-	.string "fucking Weedle! He ain't making it\l"
-	.string "easy for me! It doesn't matter\l"
-	.string "though. I'm still going to be the\l"
-	.string "very best, like no-one ever was.I'm\l"
-	.string "going to beat every trainer in my\l"
-	.string "way.. starting with YOU!$"
-
-RivalBattle1_Text_1:
-# 473 "data/maps/PalletTown/scripts.pory"
-	.string "Damn! You're tougher than I thought.$"
-
-RivalBattle1PostDialogue_Text_0:
-# 484 "data/maps/PalletTown/scripts.pory"
-	.string "You might have beaten me now but\n"
-	.string "you're still a pussy. I'll help you\l"
-	.string "out anyway...$"
-
-RivalBattle1PostDialogue_Text_1:
-# 487 "data/maps/PalletTown/scripts.pory"
-	.string "Next time you won't be so lucky...\n"
-	.string "Smell ya later!$"
-
 ConvoRoadBlock1_Text_0:
-# 505 "data/maps/PalletTown/scripts.pory"
+# 474 "data/maps/PalletTown/scripts.pory"
 	.string "Beat it kid! we're having an imporant\n"
 	.string "conversation here!\l"
 	.string "Why don't you go down to the Lab\l"
 	.string "and see what Oak is up to?$"
 
-rodsandstuff_Text_0:
-# 522 "data/maps/PalletTown/scripts.pory"
-	.string "gucci$"
-
 MASTERBALLS1_Text_0:
-# 531 "data/maps/PalletTown/scripts.pory"
+# 484 "data/maps/PalletTown/scripts.pory"
 	.string "masterballs$"
 
 RARECANDIES_Text_0:
-# 540 "data/maps/PalletTown/scripts.pory"
+# 493 "data/maps/PalletTown/scripts.pory"
 	.string "rarecandies$"
-
-PostBattle_Rival1::
-# 478 "data/maps/PalletTown/scripts.pory"
-	.string "Smell ya later$"

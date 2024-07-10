@@ -1438,3 +1438,21 @@ Text_TestMsg::
 
 	.include "data/maps/PalletNewLabBasement/scripts.inc"
 	.include "data/maps/PalletNewLabBasement/text.inc"
+
+	.include "data/maps/Route103/scripts.inc"
+	.include "data/maps/Route103/text.inc"
+
+	.include "data/maps/BillsLake/scripts.inc"
+	.include "data/maps/BillsLake/text.inc"
+
+	.include "data/maps/BillsLake2/scripts.inc"
+	.include "data/maps/BillsLake2/text.inc"
+
+	.include "data/maps/CinnabarSouthRoute/scripts.inc"
+	.include "data/maps/CinnabarSouthRoute/text.inc"
+
+	.include "data/maps/ViridianCity2/scripts.inc"
+	.include "data/maps/ViridianCity2/text.inc"
+
+	.include "data/maps/ViridianDaycare1/scripts.inc"
+	.include "data/maps/ViridianDaycare1/text.inc"

@@ -35,20 +35,6 @@
       "x": 7,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "12"
-    },
-    {
-      "x": 6,
-      "y": 14,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "5"
-    },
-    {
-      "x": 8,
-      "y": 14,
-      "elevation": 0,
       "dest_map": "MAP_SSANNE_EXTERIOR",
       "dest_warp_id": "5"
     }

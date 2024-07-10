@@ -23,3 +23,25 @@ script moonscientist1{
     releaseall
     end
 }
+
+script moonstone3{
+    lockall
+    giveitem(ITEM_MOON_STONE)
+    waitmessage
+    closemessage
+    removeobject(11)
+    setflag(FLAG_0x0B6)
+    releaseall
+    end
+}
+
+script moonstone4{
+    lockall
+    giveitem(ITEM_MOON_STONE)
+    waitmessage
+    closemessage
+    removeobject(10)
+    setflag(FLAG_0x0B5)
+    releaseall
+    end
+}

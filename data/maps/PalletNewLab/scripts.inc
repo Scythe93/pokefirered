@@ -85,6 +85,36 @@ GameStart1_1:
 	end
 
 
+scythedialogue::
+# 54 "data/maps/PalletNewLab/scripts.pory"
+	lockall
+# 55 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_0
+# 56 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_1
+# 57 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_2
+# 58 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_3
+# 59 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_4
+# 60 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_5
+# 61 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_6
+# 62 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_7
+# 63 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_8
+# 64 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_9
+# 65 "data/maps/PalletNewLab/scripts.pory"
+	closemessage
+# 66 "data/maps/PalletNewLab/scripts.pory"
+	releaseall
+	end
+
+
 GameStart1_Text_0:
 # 8 "data/maps/PalletNewLab/scripts.pory"
 	.string "Hello {PLAYER}, I heard you're new\n"
@@ -154,3 +184,70 @@ GameStart1_Text_7:
 	.string "Good luck on your adventure.\n"
 	.string "Let Scythe know about any bugs you\l"
 	.string "find <3$"
+
+scythedialogue_Text_0:
+# 55 "data/maps/PalletNewLab/scripts.pory"
+	.string "Hey! I'm Scythe. I am the creator of\n"
+	.string "this Rom.$"
+
+scythedialogue_Text_1:
+# 56 "data/maps/PalletNewLab/scripts.pory"
+	.string "A quick rundown of the rom for you;\n"
+	.string "The general layout has been kept\l"
+	.string "the same as Fire Red. Some routes\l"
+	.string "and areas have been modified,\l"
+	.string "giving it a new feel.$"
+
+scythedialogue_Text_2:
+# 57 "data/maps/PalletNewLab/scripts.pory"
+	.string "Some areas and routes have been\n"
+	.string "created entirely new. Keep your\l"
+	.string "eyes open and try exploring a bit.$"
+
+scythedialogue_Text_3:
+# 58 "data/maps/PalletNewLab/scripts.pory"
+	.string "The idea of this rom, is to find rare\n"
+	.string "pokemon. They might be hard to\l"
+	.string "find, but you can get every\l"
+	.string "pokemon from gen 1-3.$"
+
+scythedialogue_Text_4:
+# 59 "data/maps/PalletNewLab/scripts.pory"
+	.string "I tried to keep things slightly\n"
+	.string "realistic in the sense that, you\l"
+	.string "will find bugs in a forest, you\l"
+	.string "won't find saltwater fish in a river,\l"
+	.string "etc.$"
+
+scythedialogue_Text_5:
+# 60 "data/maps/PalletNewLab/scripts.pory"
+	.string "Just because an area looks cool,\n"
+	.string "doesn't necessarily mean there is a\l"
+	.string "rare pokemon hiding there, and just\l"
+	.string "because an area is boring doesn't\l"
+	.string "mean there is nothing there :P$"
+
+scythedialogue_Text_6:
+# 61 "data/maps/PalletNewLab/scripts.pory"
+	.string "the fishing rods are able to find\n"
+	.string "different things, old rod doesn't\l"
+	.string "only catch magikarps anymore.$"
+
+scythedialogue_Text_7:
+# 62 "data/maps/PalletNewLab/scripts.pory"
+	.string "also, most of the in-game trades\n"
+	.string "have been modified. Don't skip past\l"
+	.string "them, it might be actaully useful\l"
+	.string "to you.$"
+
+scythedialogue_Text_8:
+# 63 "data/maps/PalletNewLab/scripts.pory"
+	.string "my apologies for any bugs you find,\n"
+	.string "I'm sure I've missed at least one\l"
+	.string "thing. If you find a bug, let me\l"
+	.string "know and I can fix it and send the\l"
+	.string "updated rom$"
+
+scythedialogue_Text_9:
+# 64 "data/maps/PalletNewLab/scripts.pory"
+	.string "Good Luck!!!$"

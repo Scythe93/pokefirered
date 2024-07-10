@@ -167,13 +167,6 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE3CAVE",
       "dest_warp_id": "1"
-    },
-    {
-      "x": 24,
-      "y": 6,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "12"
     }
   ],
   "coord_events": [

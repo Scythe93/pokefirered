@@ -35,3 +35,35 @@ Route1_EventScript_RouteSign::
 	end
 `
 
+script RivalBattle1{
+        trainerbattle_single(TRAINER_RIVAL1, format("Hey! You're the new kid in town? Grandpa Oak sent me on this mission to catch rare pokemon and conquer the Pokemon League, but that old bastard started me off with a fucking Weedle! He ain't making it easy for me!  It doesn't matter though. I'm still going to be the very best, like no-one ever was.I'm going to beat every trainer in my way.. starting with YOU!"), 
+        format("Damn! You're tougher than I thought."), RivalBattle1PostDialogue)
+    end
+}
+
+
+text PostBattle_Rival1{
+    "Smell ya later"}
+
+
+script RivalBattle1PostDialogue{
+    lockall
+    msgbox(format("You might have beaten me now but you're still a pussy.  I'll help you out anyway..."))
+    giveitem(ITEM_TOWN_MAP)
+    special(HealPlayerParty)
+    msgbox(format("Next time you won't be so lucky... Smell ya later!"))
+    setvar(VAR_MAP_SCENE_ROUTE22, 0)
+    clearflag(FLAG_0x305)
+    clearflag(FLAG_HIDE_ROUTE_22_RIVAL)
+    applymovement(3, RivalLeave)
+    waitmovement(3)
+    removeobject(3)
+    releaseall
+    end
+}
+
+movement RivalLeave{
+    walk_right *6
+	walk_up *6
+
+}

@@ -325,7 +325,13 @@
     "route13Volcano2",
     "Route13Volcano3",
     "route13Volcano4",
-    "Route21NorthForest1"
+    "Route21NorthForest1",
+    "Route103",
+    "BillsLake",
+    "BillsLake2",
+    "CinnabarSouthRoute",
+    "ViridianCity2",
+    "ViridianDaycare1"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

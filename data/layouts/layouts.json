@@ -1648,7 +1648,7 @@
     {
       "id": "LAYOUT_ROCK_TUNNEL_B1F",
       "name": "RockTunnel_B1F_Layout",
-      "width": 48,
+      "width": 60,
       "height": 40,
       "border_width": 2,
       "border_height": 2,
@@ -4672,8 +4672,8 @@
     {
       "id": "LAYOUT_ROUTE2NEW_HOUSE",
       "name": "Route2NewHouse_Layout",
-      "width": 20,
-      "height": 10,
+      "width": 15,
+      "height": 8,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
@@ -4692,6 +4692,78 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/PalletNewLabBasement/border.bin",
       "blockdata_filepath": "data/layouts/PalletNewLabBasement/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE103",
+      "name": "Route103_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RockTunnel",
+      "border_filepath": "data/layouts/Route103/border.bin",
+      "blockdata_filepath": "data/layouts/Route103/map.bin"
+    },
+    {
+      "id": "LAYOUT_BILLS_LAKE",
+      "name": "BillsLake_Layout",
+      "width": 80,
+      "height": 80,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/BillsLake/border.bin",
+      "blockdata_filepath": "data/layouts/BillsLake/map.bin"
+    },
+    {
+      "id": "LAYOUT_BILLS_LAKE2",
+      "name": "BillsLake2_Layout",
+      "width": 40,
+      "height": 100,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/BillsLake2/border.bin",
+      "blockdata_filepath": "data/layouts/BillsLake2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_SOUTH_ROUTE",
+      "name": "CinnabarSouthRoute_Layout",
+      "width": 40,
+      "height": 100,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/CinnabarSouthRoute/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarSouthRoute/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY2",
+      "name": "ViridianCity2_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SeviiIslands45",
+      "border_filepath": "data/layouts/ViridianCity2/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_DAYCARE1",
+      "name": "ViridianDaycare1_Layout",
+      "width": 12,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FanClubDaycare",
+      "border_filepath": "data/layouts/ViridianDaycare1/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianDaycare1/map.bin"
     }
   ]
 }

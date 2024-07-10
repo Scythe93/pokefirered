@@ -287,6 +287,12 @@
 #define MAP_ROUTE13VOLCANO3                      (73 | (3 << 8))
 #define MAP_ROUTE13VOLCANO4                      (74 | (3 << 8))
 #define MAP_ROUTE21NORTH_FOREST1                 (75 | (3 << 8))
+#define MAP_ROUTE103                             (76 | (3 << 8))
+#define MAP_BILLS_LAKE                           (77 | (3 << 8))
+#define MAP_BILLS_LAKE2                          (78 | (3 << 8))
+#define MAP_CINNABAR_SOUTH_ROUTE                 (79 | (3 << 8))
+#define MAP_VIRIDIAN_CITY2                       (80 | (3 << 8))
+#define MAP_VIRIDIAN_DAYCARE1                    (81 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

@@ -18,19 +18,23 @@
       "map": "MAP_ROUTE10",
       "offset": 51,
       "direction": "left"
+    },
+    {
+      "map": "MAP_BILLS_LAKE",
+      "offset": -55,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_BILLS_LAKE2",
+      "offset": -30,
+      "direction": "right"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-    {
-      "x": 17,
-      "y": 48,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "12"
-    }
+
   ],
   "coord_events": [
 
@@ -58,8 +62,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 28,
-      "y": 49,
+      "x": 26,
+      "y": 32,
       "elevation": 0,
       "item": "ITEM_MOON_STONE",
       "flag": "FLAG_0x8F8",

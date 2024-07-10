@@ -18,6 +18,11 @@
       "map": "MAP_ROUTE20",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_CINNABAR_SOUTH_ROUTE",
+      "offset": -1,
+      "direction": "left"
     }
   ],
   "object_events": [

@@ -1,0 +1,19 @@
+mapscripts Route103_MapScripts{
+
+}
+
+script Regirock1{
+    lockall
+    msgbox("...")
+    waitmessage
+    closemessage
+    playmoncry(SPECIES_REGIROCK, CRY_MODE_NORMAL)
+    waitmoncry
+    setwildbattle(SPECIES_REGIROCK, 45, ITEM_NONE)
+    dowildbattle 
+    removeobject(1)
+    setflag(FLAG_0x0B9)
+    releaseall
+    end
+
+}

@@ -47,3 +47,22 @@ else{msgbox(format("Good luck on your adventure.\n Let Scythe know about any bug
     end
 }
 }
+
+
+
+script scythedialogue{
+    lockall
+    msgbox(format("Hey! I'm Scythe. I am the creator of this Rom."))
+    msgbox(format("A quick rundown of the rom for you; The general layout has been kept the same as Fire Red. Some routes and areas have been modified, giving it a new feel."))
+    msgbox(format("Some areas and routes have been created entirely new. Keep your eyes open and try exploring a bit."))
+    msgbox(format("The idea of this rom, is to find rare pokemon. They might be hard to find, but you can get every pokemon from gen 1-3."))
+    msgbox(format("I tried to keep things slightly realistic in the sense that, you will find bugs in a forest, you won't find saltwater fish in a river, etc."))
+    msgbox(format("Just because an area looks cool, doesn't necessarily mean there is a rare pokemon hiding there, and just because an area is boring doesn't mean there is nothing there :P"))
+    msgbox(format("the fishing rods are able to find different things, old rod doesn't only catch magikarps anymore."))
+    msgbox(format("also, most of the in-game trades have been modified. Don't skip past them, it might be actaully useful to you."))
+    msgbox(format("my apologies for any bugs you find, I'm sure I've missed at least one thing. If you find a bug, let me know and I can fix it and send the updated rom"))
+    msgbox(format("Good Luck!!!"))
+    closemessage
+    releaseall
+    end
+}

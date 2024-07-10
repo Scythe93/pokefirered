@@ -1,0 +1,10 @@
+mapscripts VermilionCity_House2_MapScripts{
+
+}
+
+script VCHgirl1{
+    msgbox(format("Back in 1999, when Red and Blue version were new. There was a rumor, that you could find a Mew under the truck!"))
+    closemessage
+    msgbox("You should google it!")
+
+}
