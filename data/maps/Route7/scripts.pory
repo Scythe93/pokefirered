@@ -11,3 +11,37 @@ script PrimeSign {
     msgbox(format("The Prime Rainforest. A wide variety of species live here."))
     releaseall
 }
+
+script RainforestItem1{
+    lockall
+    giveitem(ITEM_LUXURY_BALL)
+    waitmessage
+    closemessage
+    removeobject(1)
+    setflag(FLAG_0x0BF)
+    releaseall
+    end
+}
+
+script RainforestItem2{
+    lockall
+    giveitem(ITEM_PROTEIN)
+    waitmessage
+    closemessage
+    removeobject(2)
+    setflag(FLAG_0x0C0)
+    releaseall
+    end
+}
+
+
+script RainforestItem3{
+    lockall
+    giveitem(ITEM_NUGGET)
+    waitmessage
+    closemessage
+    removeobject(5)
+    setflag(FLAG_0x0C1)
+    releaseall
+    end
+}

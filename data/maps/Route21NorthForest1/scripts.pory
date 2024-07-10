@@ -1,0 +1,73 @@
+mapscripts Route21NorthForest1_MapScripts{
+
+
+}
+
+script RainforestItem4{
+    lockall
+    giveitem(ITEM_MAX_REVIVE)
+    waitmessage
+    closemessage
+    removeobject(1)
+    setflag(FLAG_0x0BF)
+    releaseall
+    end
+}
+
+script RainforestItem5{
+    lockall
+    giveitem(ITEM_PP_UP)
+    waitmessage
+    closemessage
+    removeobject(2)
+    setflag(FLAG_0x0C0)
+    releaseall
+    end
+}
+
+
+script RainforestItem6{
+    lockall
+    giveitem(ITEM_PP_UP)
+    waitmessage
+    closemessage
+    removeobject(5)
+    setflag(FLAG_0x0C1)
+    releaseall
+    end
+}
+
+script TRAINER_Forest_Lass1{
+    trainerbattle_single(TRAINER_RLASS1, RLass_Intro, RLass_Outro)
+    msgbox(PostBattle_RLass, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text RLass_Intro{
+    "Rainforests are delicate ecosystems"
+}
+
+text RLass_Outro{
+    "Best of luck!"
+}
+
+text PostBattle_RLass{
+    "Best of luck!"
+}
+
+script TRAINER_Forest_Lass2{
+    trainerbattle_single(TRAINER_RLASS2, RLass2_Intro, RLass2_Outro)
+    msgbox(PostBattle_RLass, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text RLass2_Intro{
+    "So many exotic species in this forest!"
+}
+
+text RLass2_Outro{
+    "Best of luck!"
+}
+

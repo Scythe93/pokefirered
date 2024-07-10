@@ -1,0 +1,34 @@
+mapscripts BillsLake_MapScripts{
+
+}
+
+
+script FairyLakeSign{
+    lockall
+    msgbox(format("Lake Jahova"))
+    closemessage
+    releaseall
+    end
+}
+
+script billakeitem1{
+    lockall
+    giveitem(ITEM_WATER_STONE)
+    waitmessage
+    closemessage
+    removeobject(1)
+    setflag(FLAG_0x0BA)
+    releaseall
+    end
+}
+
+script billakeitem2{
+    lockall
+    giveitem(ITEM_LUXURY_BALL)
+    waitmessage
+    closemessage
+    removeobject(2)
+    setflag(FLAG_0x0BB)
+    releaseall
+    end
+}

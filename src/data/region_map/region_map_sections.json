@@ -1,14 +1,6 @@
 {
   "map_sections": [
     {
-      "map_section": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN",
-      "x": 4,
-      "y": 11,
-      "width": 1,
-      "height": 1
-    },
-    {
       "map_section": "MAPSEC_VIRIDIAN_CITY",
       "name": "VIRIDIAN CITY",
       "x": 4,
@@ -873,8 +865,8 @@
       "height": 0
     },
     {
-      "map_section": "MAPSEC_LITTLEROOT_TOWN",
-      "name": "Oak's Lab",
+      "map_section": "MAPSEC_PALLET_TOWN",
+      "name": "PALLET TOWN",
       "x": 4,
       "y": 11,
       "width": 1,

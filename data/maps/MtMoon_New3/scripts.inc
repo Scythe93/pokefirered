@@ -74,6 +74,24 @@ moonstone4::
 	end
 
 
+EscapeRope1::
+# 50 "data/maps/MtMoon_New3/scripts.pory"
+	lockall
+# 51 "data/maps/MtMoon_New3/scripts.pory"
+	giveitem ITEM_ESCAPE_ROPE
+# 52 "data/maps/MtMoon_New3/scripts.pory"
+	waitmessage
+# 53 "data/maps/MtMoon_New3/scripts.pory"
+	closemessage
+# 54 "data/maps/MtMoon_New3/scripts.pory"
+	removeobject 12
+# 55 "data/maps/MtMoon_New3/scripts.pory"
+	setflag FLAG_0x0BC
+# 56 "data/maps/MtMoon_New3/scripts.pory"
+	releaseall
+	end
+
+
 Clefairys1_Text_0:
 # 8 "data/maps/MtMoon_New3/scripts.pory"
 	.string "Faiiiiiry! Faiiiiiiry!$"

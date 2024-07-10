@@ -45,3 +45,14 @@ script moonstone4{
     releaseall
     end
 }
+
+script EscapeRope1{
+    lockall
+    giveitem(ITEM_ESCAPE_ROPE)
+    waitmessage
+    closemessage
+    removeobject(12)
+    setflag(FLAG_0x0BC)
+    releaseall
+    end
+}

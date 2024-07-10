@@ -193,7 +193,7 @@
 #define FLAG_0x0AF               0x0AF  -- test pokeball
 #define FLAG_0x0B0               0x0B0 //
 #define FLAG_0x0B1               0x0B1 //
-#define FLAG_0x0B2               0x0B2 //
+#define FLAG_0x0B2               0x0B2 // not used yet!!!! had it on clefairys but I changed it to gym badge 8 flag
 #define FLAG_0x0B3               0x0B3 // mew
 #define FLAG_0x0B4               0x0B4 // lugia
 #define FLAG_0x0B5               0x0B5 // moonstones mt moon
@@ -201,12 +201,12 @@
 #define FLAG_0x0B7               0x0B7 //
 #define FLAG_0x0B8               0x0B8 //
 #define FLAG_0x0B9               0x0B9 //
-#define FLAG_0x0BA               0x0BA
-#define FLAG_0x0BB               0x0BB
-#define FLAG_0x0BC               0x0BC
-#define FLAG_0x0BD               0x0BD
-#define FLAG_0x0BE               0x0BE
-#define FLAG_0x0BF               0x0BF
+#define FLAG_0x0BA               0x0BA//
+#define FLAG_0x0BB               0x0BB//
+#define FLAG_0x0BC               0x0BC//
+#define FLAG_0x0BD               0x0BD//
+#define FLAG_0x0BE               0x0BE//
+#define FLAG_0x0BF               0x0BF//
 #define FLAG_0x0C0               0x0C0
 #define FLAG_0x0C1               0x0C1
 #define FLAG_0x0C2               0x0C2

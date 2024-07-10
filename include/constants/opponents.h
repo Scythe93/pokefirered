@@ -758,6 +758,8 @@
 #define TRAINER_VOLCANO_HIKER4                   753
 #define TRAINER_RIVAL1                           754
 #define TRAINER_RTE163SWIMMER1                   755
+#define TRAINER_RLASS1                           756
+#define TRAINER_RLASS2                           757
 
 // I added 12 so far
 

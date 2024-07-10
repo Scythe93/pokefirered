@@ -1,0 +1,11 @@
+mapscripts BillsLake2_MapScripts{
+
+}
+
+script FallsSign1{
+    lockall
+    msgbox("Jahova Falls")
+    closemessage
+    releaseall
+    end
+}
