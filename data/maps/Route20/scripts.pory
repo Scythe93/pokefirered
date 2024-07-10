@@ -37,7 +37,7 @@ Route20_EventScript_SeafoamIslandsSign::
 
 script DangerSeaSign {
     lockall
-    msgbox(format("WARNING: DANGEROUS SEAS AHEAD.\NDEAD END.\NTo continue to Cinnabar Island, \Nturn back and go through Seafoam Caves!"))
+    msgbox(format("WARNING: DANGEROUS SEAS AHEAD.\N For the safer route to continue to Cinnabar Island, \Nturn back and go through Seafoam Caves!"))
     releaseall
 }
 

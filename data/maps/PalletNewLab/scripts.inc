@@ -115,8 +115,12 @@ scythedialogue::
 # 67 "data/maps/PalletNewLab/scripts.pory"
 	msgbox scythedialogue_Text_11
 # 68 "data/maps/PalletNewLab/scripts.pory"
-	closemessage
+	msgbox scythedialogue_Text_12
 # 69 "data/maps/PalletNewLab/scripts.pory"
+	msgbox scythedialogue_Text_13
+# 70 "data/maps/PalletNewLab/scripts.pory"
+	closemessage
+# 71 "data/maps/PalletNewLab/scripts.pory"
 	releaseall
 	end
 
@@ -215,7 +219,9 @@ scythedialogue_Text_2:
 # 58 "data/maps/PalletNewLab/scripts.pory"
 	.string "Some areas and routes have been\n"
 	.string "created entirely new. Keep your\l"
-	.string "eyes open and try exploring a bit.$"
+	.string "eyes open and try exploring a bit.\l"
+	.string "You might have to come back to an\l"
+	.string "area after getting surf, cut, etc.$"
 
 scythedialogue_Text_3:
 # 59 "data/maps/PalletNewLab/scripts.pory"
@@ -248,13 +254,24 @@ scythedialogue_Text_6:
 
 scythedialogue_Text_7:
 # 63 "data/maps/PalletNewLab/scripts.pory"
+	.string "All pokemon can be obtained WITHOUT\n"
+	.string "needing to trade. Whether by\l"
+	.string "leveling up, or a stone.$"
+
+scythedialogue_Text_8:
+# 64 "data/maps/PalletNewLab/scripts.pory"
+	.string "Eevee is effected by moon stones and\n"
+	.string "sun stones.$"
+
+scythedialogue_Text_9:
+# 65 "data/maps/PalletNewLab/scripts.pory"
 	.string "also, most of the in-game trades\n"
 	.string "have been modified. Don't skip past\l"
 	.string "them, it might be actaully useful\l"
 	.string "to you.$"
 
-scythedialogue_Text_8:
-# 64 "data/maps/PalletNewLab/scripts.pory"
+scythedialogue_Text_10:
+# 66 "data/maps/PalletNewLab/scripts.pory"
 	.string "The Town Map is kinda messed up, it\n"
 	.string "is extremely complicated to edit it\l"
 	.string "properly so I just gave up and\l"
@@ -266,20 +283,20 @@ scythedialogue_Text_8:
 	.string "there are large areas that you\l"
 	.string "won't be able to see on there at all.$"
 
-scythedialogue_Text_9:
-# 65 "data/maps/PalletNewLab/scripts.pory"
+scythedialogue_Text_11:
+# 67 "data/maps/PalletNewLab/scripts.pory"
 	.string "my apologies for any bugs you find,\n"
 	.string "I'm sure I've missed at least one\l"
 	.string "thing. If you find a bug, let me\l"
 	.string "know and I can fix it and send the\l"
 	.string "updated rom$"
 
-scythedialogue_Text_10:
-# 66 "data/maps/PalletNewLab/scripts.pory"
+scythedialogue_Text_12:
+# 68 "data/maps/PalletNewLab/scripts.pory"
 	.string "The rom hack ends after the pokemon\n"
 	.string "league. From there on out, it's the\l"
 	.string "same as regular fire red.$"
 
-scythedialogue_Text_11:
-# 67 "data/maps/PalletNewLab/scripts.pory"
+scythedialogue_Text_13:
+# 69 "data/maps/PalletNewLab/scripts.pory"
 	.string "and that's it!! Good Luck!!!$"

@@ -90,7 +90,7 @@ r20netball::
 DangerSeaSign_Text_0:
 # 40 "data/maps/Route20/scripts.pory"
 	.string "WARNING: DANGEROUS SEAS AHEAD.\n"
-	.string "DEAD END.\l"
-	.string "To continue to Cinnabar Island,\l"
+	.string "For the safer route to continue to\l"
+	.string "Cinnabar Island,\l"
 	.string "turn back and go through Seafoam\l"
 	.string "Caves!$"
