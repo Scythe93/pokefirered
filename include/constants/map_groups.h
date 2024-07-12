@@ -147,6 +147,7 @@
 #define MAP_MT_MOON_NEW_TUNNEL1                  (105 | (1 << 8))
 #define MAP_MT_MOON_NEW2                         (106 | (1 << 8))
 #define MAP_MT_MOON_NEW3                         (107 | (1 << 8))
+#define MAP_FAIRY_FOUNTAIN1                      (108 | (1 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_NAVEL_ROCK_EXTERIOR                       (0 | (2 << 8))
@@ -293,6 +294,10 @@
 #define MAP_CINNABAR_SOUTH_ROUTE                 (79 | (3 << 8))
 #define MAP_VIRIDIAN_CITY2                       (80 | (3 << 8))
 #define MAP_VIRIDIAN_DAYCARE1                    (81 | (3 << 8))
+#define MAP_ROUTE62                              (82 | (3 << 8))
+#define MAP_ROUTE63                              (83 | (3 << 8))
+#define MAP_ROUTE102HOUSE                        (84 | (3 << 8))
+#define MAP_ROUTE13VOLCANO_HOUSE                 (85 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

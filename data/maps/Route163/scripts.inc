@@ -4,10 +4,20 @@ Route163_MapScripts::
 
 r163swimmer1::
 # 7 "data/maps/Route163/scripts.pory"
-	trainerbattle_single TRAINER_RTE163SWIMMER1, vLass_Intro, vLass_Outro
+	trainerbattle_single TRAINER_RTE163SWIMMER1, swimmerintro1, swimmeroutro1
 # 8 "data/maps/Route163/scripts.pory"
-	msgbox PostBattle_vLass, MSGBOX_AUTOCLOSE
+	msgbox swimmerpost1, MSGBOX_AUTOCLOSE
 # 9 "data/maps/Route163/scripts.pory"
+	waitmessage
+	end
+
+
+r163swimmer2::
+# 24 "data/maps/Route163/scripts.pory"
+	trainerbattle_single TRAINER_RTE163SWIMMER2, swimmerintro2, swimmeroutro2
+# 25 "data/maps/Route163/scripts.pory"
+	msgbox swimmerpost2, MSGBOX_AUTOCLOSE
+# 26 "data/maps/Route163/scripts.pory"
 	waitmessage
 	end
 
@@ -22,4 +32,16 @@ swimmeroutro1::
 
 swimmerpost1::
 # 19 "data/maps/Route163/scripts.pory"
+	.string "Careful! We're far from shore!$"
+
+swimmerintro2::
+# 30 "data/maps/Route163/scripts.pory"
+	.string "Just keep swimming swimming swimming!$"
+
+swimmeroutro2::
+# 33 "data/maps/Route163/scripts.pory"
+	.string "swimming swimming swimming swimming swimmg SWIMMING SWIMMING SWIMMING$"
+
+swimmerpost2::
+# 36 "data/maps/Route163/scripts.pory"
 	.string "Careful! We're far from shore!$"

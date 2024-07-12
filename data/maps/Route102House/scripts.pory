@@ -1,0 +1,11 @@
+mapscripts Route102House_MapScripts{
+
+}
+
+script R102fisher1{
+    lockall
+    msgbox(format("What are you doing in here? This is my private fishing house! Get the fuck out before you get shot!"))
+    closemessage
+    releaseall
+    end
+}

@@ -5,7 +5,7 @@ mapscripts PalletNewLab_MapScripts{
 script GameStart1 {
     lockall
 if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
-    msgbox(format("Hello {PLAYER}, I heard you're new in town. I'm Professoar Oak. I study all the different species of pokemon in the region.\N I have a request from you, I need you to help me gather data on all the different pokemon in Kanto.\N I need you to find, and catch as many rare pokemon as you can. You will need to search, far and wide.. to understand, the power that's inside."))
+    msgbox(format("Hello {PLAYER}, I heard you're new in town. I'm Professoar Oak. I study all the different species of pokemon in the region.\N I have a request for you, I need you to help me gather data on all the different pokemon in Kanto.\N I need you to find, and catch as many rare pokemon as you can. You will need to search, far and wide.. to understand, the power that's inside."))
     msgbox(format("You will need a pokemon to start you off, I usually carry a supply of powerful pokemon on hand like Charmanders and Bulbasaurs, but unfortunately everything I have right now is sick.\N This Caterpie should do the job though. Use Caterpie to begin your journey, you will surely find some powerful pokemon to help carry you through the region."))
     msgbox(format("Conquer all of Kanto, collect all 8 badges, then beat the Pokemon League. While collecting data on rare pokemon all the way.\N Come back to me after you beat the pokemon league, and I will have something for you."))
     msgbox(format("Good luck! and watch out for my Grandson, he is an arrogant prick but I sent him on the same mission as you. I'm sure you will run into him along the way."))
@@ -31,6 +31,7 @@ if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
     setflag(0x829)
     setflag(FLAG_WONDER_CARD_UNUSED_10)
     setflag(FLAG_0x305)
+    clearflag(FLAG_0x304)
     closemessage
     msgbox(format("I'm going to start you off with these fancy looking pokeballs too. They function the same as a regular pokeball but look cooler. Buy some more at the Mart."))
     giveitem(ITEM_PREMIER_BALL, 10)

@@ -966,6 +966,72 @@ sunstones::
 	end
 
 
+RivalBattle1::
+# 511 "data/maps/PalletTown/scripts.pory"
+	trainerbattle_single TRAINER_RIVAL1, RivalBattle1_Text_0, RivalBattle1_Text_1, RivalBattle1PostDialogue
+	end
+
+
+RivalBattle1PostDialogue::
+# 522 "data/maps/PalletTown/scripts.pory"
+	lockall
+# 523 "data/maps/PalletTown/scripts.pory"
+	msgbox RivalBattle1PostDialogue_Text_0
+# 524 "data/maps/PalletTown/scripts.pory"
+	giveitem ITEM_TOWN_MAP
+# 525 "data/maps/PalletTown/scripts.pory"
+	special HealPlayerParty
+# 526 "data/maps/PalletTown/scripts.pory"
+	msgbox RivalBattle1PostDialogue_Text_1
+# 527 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_ROUTE22, 0
+# 528 "data/maps/PalletTown/scripts.pory"
+	clearflag FLAG_0x305
+# 529 "data/maps/PalletTown/scripts.pory"
+	clearflag FLAG_HIDE_ROUTE_22_RIVAL
+# 530 "data/maps/PalletTown/scripts.pory"
+	applymovement 9, RivalLeave
+# 531 "data/maps/PalletTown/scripts.pory"
+	waitmovement 9
+# 532 "data/maps/PalletTown/scripts.pory"
+	removeobject 9
+# 533 "data/maps/PalletTown/scripts.pory"
+	releaseall
+	end
+
+
+# 537 "data/maps/PalletTown/scripts.pory"
+RivalLeave:
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 538 "data/maps/PalletTown/scripts.pory"
+	walk_left
+# 539 "data/maps/PalletTown/scripts.pory"
+	walk_up
+# 539 "data/maps/PalletTown/scripts.pory"
+	walk_up
+# 539 "data/maps/PalletTown/scripts.pory"
+	walk_up
+# 539 "data/maps/PalletTown/scripts.pory"
+	walk_up
+	step_end
+
 ConvoRoadBlock1_Text_0:
 # 474 "data/maps/PalletTown/scripts.pory"
 	.string "Beat it kid! we're having an imporant\n"
@@ -980,3 +1046,36 @@ MASTERBALLS1_Text_0:
 RARECANDIES_Text_0:
 # 493 "data/maps/PalletTown/scripts.pory"
 	.string "rarecandies$"
+
+RivalBattle1_Text_0:
+# 511 "data/maps/PalletTown/scripts.pory"
+	.string "Hey! You're the new kid in town?\n"
+	.string "Grandpa Oak sent me on this mission\l"
+	.string "to catch rare pokemon and conquer\l"
+	.string "the Pokemon League, but that old\l"
+	.string "bastard started me off with a\l"
+	.string "fucking Weedle! He ain't making it\l"
+	.string "easy for me! It doesn't matter\l"
+	.string "though. I'm still going to be the\l"
+	.string "very best, like no-one ever was.I'm\l"
+	.string "going to beat every trainer in my\l"
+	.string "way.. starting with YOU!$"
+
+RivalBattle1_Text_1:
+# 512 "data/maps/PalletTown/scripts.pory"
+	.string "Damn! You're tougher than I thought.$"
+
+RivalBattle1PostDialogue_Text_0:
+# 523 "data/maps/PalletTown/scripts.pory"
+	.string "You might have beaten me now but\n"
+	.string "you're still a pussy. I'll help you\l"
+	.string "out anyway...$"
+
+RivalBattle1PostDialogue_Text_1:
+# 526 "data/maps/PalletTown/scripts.pory"
+	.string "Next time you won't be so lucky...\n"
+	.string "Smell ya later!$"
+
+PostBattle_Rival1::
+# 517 "data/maps/PalletTown/scripts.pory"
+	.string "Smell ya later$"

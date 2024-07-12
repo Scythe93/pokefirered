@@ -7,11 +7,11 @@ GameStart1::
 	lockall
 # 7 "data/maps/PalletNewLab/scripts.pory"
 	goto_if_unset FLAG_WONDER_CARD_UNUSED_10, GameStart1_1
-# 45 "data/maps/PalletNewLab/scripts.pory"
-	msgbox GameStart1_Text_8
 # 46 "data/maps/PalletNewLab/scripts.pory"
-	closemessage
+	msgbox GameStart1_Text_8
 # 47 "data/maps/PalletNewLab/scripts.pory"
+	closemessage
+# 48 "data/maps/PalletNewLab/scripts.pory"
 	releaseall
 	end
 
@@ -67,60 +67,62 @@ GameStart1_1:
 # 33 "data/maps/PalletNewLab/scripts.pory"
 	setflag FLAG_0x305
 # 34 "data/maps/PalletNewLab/scripts.pory"
-	closemessage
+	clearflag FLAG_0x304
 # 35 "data/maps/PalletNewLab/scripts.pory"
-	msgbox GameStart1_Text_5
+	closemessage
 # 36 "data/maps/PalletNewLab/scripts.pory"
-	giveitem ITEM_PREMIER_BALL, 10
+	msgbox GameStart1_Text_5
 # 37 "data/maps/PalletNewLab/scripts.pory"
-	giveitem ITEM_LUXURY_BALL, 5
+	giveitem ITEM_PREMIER_BALL, 10
 # 38 "data/maps/PalletNewLab/scripts.pory"
-	closemessage
+	giveitem ITEM_LUXURY_BALL, 5
 # 39 "data/maps/PalletNewLab/scripts.pory"
-	msgbox GameStart1_Text_6
-# 40 "data/maps/PalletNewLab/scripts.pory"
-	msgbox GameStart1_Text_7
-# 41 "data/maps/PalletNewLab/scripts.pory"
 	closemessage
+# 40 "data/maps/PalletNewLab/scripts.pory"
+	msgbox GameStart1_Text_6
+# 41 "data/maps/PalletNewLab/scripts.pory"
+	msgbox GameStart1_Text_7
 # 42 "data/maps/PalletNewLab/scripts.pory"
+	closemessage
+# 43 "data/maps/PalletNewLab/scripts.pory"
 	releaseall
 	end
 
 
 scythedialogue::
-# 55 "data/maps/PalletNewLab/scripts.pory"
-	lockall
 # 56 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_0
+	lockall
 # 57 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_1
+	msgbox scythedialogue_Text_0
 # 58 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_2
+	msgbox scythedialogue_Text_1
 # 59 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_3
+	msgbox scythedialogue_Text_2
 # 60 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_4
+	msgbox scythedialogue_Text_3
 # 61 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_5
+	msgbox scythedialogue_Text_4
 # 62 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_6
+	msgbox scythedialogue_Text_5
 # 63 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_7
+	msgbox scythedialogue_Text_6
 # 64 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_8
+	msgbox scythedialogue_Text_7
 # 65 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_9
+	msgbox scythedialogue_Text_8
 # 66 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_10
+	msgbox scythedialogue_Text_9
 # 67 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_11
+	msgbox scythedialogue_Text_10
 # 68 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_12
+	msgbox scythedialogue_Text_11
 # 69 "data/maps/PalletNewLab/scripts.pory"
-	msgbox scythedialogue_Text_13
+	msgbox scythedialogue_Text_12
 # 70 "data/maps/PalletNewLab/scripts.pory"
-	closemessage
+	msgbox scythedialogue_Text_13
 # 71 "data/maps/PalletNewLab/scripts.pory"
+	closemessage
+# 72 "data/maps/PalletNewLab/scripts.pory"
 	releaseall
 	end
 
@@ -131,7 +133,7 @@ GameStart1_Text_0:
 	.string "in town. I'm Professoar Oak. I study\l"
 	.string "all the different species of\l"
 	.string "pokemon in the region.\l"
-	.string "I have a request from you, I need\l"
+	.string "I have a request for you, I need\l"
 	.string "you to help me gather data on all\l"
 	.string "the different pokemon in Kanto.\l"
 	.string "I need you to find, and catch as\l"
@@ -177,7 +179,7 @@ GameStart1_Text_4:
 	.string "{PLAYER} Recieved Caterpie$"
 
 GameStart1_Text_5:
-# 35 "data/maps/PalletNewLab/scripts.pory"
+# 36 "data/maps/PalletNewLab/scripts.pory"
 	.string "I'm going to start you off with these\n"
 	.string "fancy looking pokeballs too. They\l"
 	.string "function the same as a regular\l"
@@ -185,30 +187,30 @@ GameStart1_Text_5:
 	.string "more at the Mart.$"
 
 GameStart1_Text_6:
-# 39 "data/maps/PalletNewLab/scripts.pory"
+# 40 "data/maps/PalletNewLab/scripts.pory"
 	.string "Speak with the man in the trenchcoat\n"
 	.string "in the corner, if you'd like a\l"
 	.string "rundown of this ROM hack.$"
 
 GameStart1_Text_7:
-# 40 "data/maps/PalletNewLab/scripts.pory"
+# 41 "data/maps/PalletNewLab/scripts.pory"
 	.string "You should be good to go now. Have\n"
 	.string "fun.$"
 
 GameStart1_Text_8:
-# 45 "data/maps/PalletNewLab/scripts.pory"
+# 46 "data/maps/PalletNewLab/scripts.pory"
 	.string "Good luck on your adventure.\n"
 	.string "Speak to SCYTHE in the corner of\l"
 	.string "the room for a rundown of the ROM\l"
 	.string "hack!$"
 
 scythedialogue_Text_0:
-# 56 "data/maps/PalletNewLab/scripts.pory"
+# 57 "data/maps/PalletNewLab/scripts.pory"
 	.string "Hey! I'm Scythe. I am the creator of\n"
 	.string "this Rom.$"
 
 scythedialogue_Text_1:
-# 57 "data/maps/PalletNewLab/scripts.pory"
+# 58 "data/maps/PalletNewLab/scripts.pory"
 	.string "A quick rundown of the rom for you;\n"
 	.string "The general layout has been kept\l"
 	.string "the same as Fire Red. Some routes\l"
@@ -216,7 +218,7 @@ scythedialogue_Text_1:
 	.string "giving it a new feel.$"
 
 scythedialogue_Text_2:
-# 58 "data/maps/PalletNewLab/scripts.pory"
+# 59 "data/maps/PalletNewLab/scripts.pory"
 	.string "Some areas and routes have been\n"
 	.string "created entirely new. Keep your\l"
 	.string "eyes open and try exploring a bit.\l"
@@ -224,14 +226,14 @@ scythedialogue_Text_2:
 	.string "area after getting surf, cut, etc.$"
 
 scythedialogue_Text_3:
-# 59 "data/maps/PalletNewLab/scripts.pory"
+# 60 "data/maps/PalletNewLab/scripts.pory"
 	.string "The idea of this rom, is to find rare\n"
 	.string "pokemon. They might be hard to\l"
 	.string "find, but you can get every\l"
 	.string "pokemon from gen 1-3.$"
 
 scythedialogue_Text_4:
-# 60 "data/maps/PalletNewLab/scripts.pory"
+# 61 "data/maps/PalletNewLab/scripts.pory"
 	.string "I tried to keep things slightly\n"
 	.string "realistic in the sense that, you\l"
 	.string "will find bugs in a forest, you\l"
@@ -239,7 +241,7 @@ scythedialogue_Text_4:
 	.string "etc.$"
 
 scythedialogue_Text_5:
-# 61 "data/maps/PalletNewLab/scripts.pory"
+# 62 "data/maps/PalletNewLab/scripts.pory"
 	.string "Just because an area looks cool,\n"
 	.string "doesn't necessarily mean there is a\l"
 	.string "rare pokemon hiding there, and just\l"
@@ -247,31 +249,31 @@ scythedialogue_Text_5:
 	.string "mean there is nothing there :P$"
 
 scythedialogue_Text_6:
-# 62 "data/maps/PalletNewLab/scripts.pory"
+# 63 "data/maps/PalletNewLab/scripts.pory"
 	.string "the fishing rods are able to find\n"
 	.string "different things, old rod doesn't\l"
 	.string "only catch magikarps anymore.$"
 
 scythedialogue_Text_7:
-# 63 "data/maps/PalletNewLab/scripts.pory"
+# 64 "data/maps/PalletNewLab/scripts.pory"
 	.string "All pokemon can be obtained WITHOUT\n"
 	.string "needing to trade. Whether by\l"
 	.string "leveling up, or a stone.$"
 
 scythedialogue_Text_8:
-# 64 "data/maps/PalletNewLab/scripts.pory"
+# 65 "data/maps/PalletNewLab/scripts.pory"
 	.string "Eevee is effected by moon stones and\n"
 	.string "sun stones.$"
 
 scythedialogue_Text_9:
-# 65 "data/maps/PalletNewLab/scripts.pory"
+# 66 "data/maps/PalletNewLab/scripts.pory"
 	.string "also, most of the in-game trades\n"
 	.string "have been modified. Don't skip past\l"
 	.string "them, it might be actaully useful\l"
 	.string "to you.$"
 
 scythedialogue_Text_10:
-# 66 "data/maps/PalletNewLab/scripts.pory"
+# 67 "data/maps/PalletNewLab/scripts.pory"
 	.string "The Town Map is kinda messed up, it\n"
 	.string "is extremely complicated to edit it\l"
 	.string "properly so I just gave up and\l"
@@ -284,7 +286,7 @@ scythedialogue_Text_10:
 	.string "won't be able to see on there at all.$"
 
 scythedialogue_Text_11:
-# 67 "data/maps/PalletNewLab/scripts.pory"
+# 68 "data/maps/PalletNewLab/scripts.pory"
 	.string "my apologies for any bugs you find,\n"
 	.string "I'm sure I've missed at least one\l"
 	.string "thing. If you find a bug, let me\l"
@@ -292,11 +294,11 @@ scythedialogue_Text_11:
 	.string "updated rom$"
 
 scythedialogue_Text_12:
-# 68 "data/maps/PalletNewLab/scripts.pory"
+# 69 "data/maps/PalletNewLab/scripts.pory"
 	.string "The rom hack ends after the pokemon\n"
 	.string "league. From there on out, it's the\l"
 	.string "same as regular fire red.$"
 
 scythedialogue_Text_13:
-# 69 "data/maps/PalletNewLab/scripts.pory"
+# 70 "data/maps/PalletNewLab/scripts.pory"
 	.string "and that's it!! Good Luck!!!$"

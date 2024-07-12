@@ -13,7 +13,13 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_VERMILION_CITY",
+      "offset": 9,
+      "direction": "up"
+    }
+  ],
   "object_events": [
     {
       "type": "object",
@@ -67,8 +73,8 @@
       "dest_warp_id": "2"
     },
     {
-      "x": 56,
-      "y": 2,
+      "x": 57,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_MEW_CAVE1",
       "dest_warp_id": "0"

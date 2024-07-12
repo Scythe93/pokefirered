@@ -23,6 +23,21 @@
       "map": "MAP_ROUTE11",
       "offset": 10,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE62",
+      "offset": -40,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE63",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_SSANNE_EXTERIOR",
+      "offset": -9,
+      "direction": "down"
     }
   ],
   "object_events": [

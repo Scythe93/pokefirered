@@ -40,8 +40,36 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_4"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "x": 9,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "x": 8,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_2"
     }
   ],
   "warp_events": [
@@ -56,7 +84,7 @@
       "x": 41,
       "y": 41,
       "elevation": 0,
-      "dest_map": "MAP_SAFARI_ZONE_CENTER_REST_HOUSE",
+      "dest_map": "MAP_FAIRY_FOUNTAIN1",
       "dest_warp_id": "0"
     }
   ],

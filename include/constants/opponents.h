@@ -760,6 +760,9 @@
 #define TRAINER_RTE163SWIMMER1                   755
 #define TRAINER_RLASS1                           756
 #define TRAINER_RLASS2                           757
+#define TRAINER_RTE163SWIMMER2                   758
+#define TRAINER_JAHOVA_HIKER1                    759
+#define TRAINER_JAHOVA_HIKER2                    760
 
 // I added 12 so far
 
@@ -771,3 +774,4 @@
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
+

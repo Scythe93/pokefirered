@@ -2152,12 +2152,12 @@
     {
       "id": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
       "name": "SafariZone_RestHouse_Layout",
-      "width": 30,
-      "height": 20,
+      "width": 15,
+      "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MtEmber",
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SafariZoneBuilding",
       "border_filepath": "data/layouts/SafariZone_RestHouse/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_RestHouse/map.bin"
     },
@@ -4764,6 +4764,66 @@
       "secondary_tileset": "gTileset_FanClubDaycare",
       "border_filepath": "data/layouts/ViridianDaycare1/border.bin",
       "blockdata_filepath": "data/layouts/ViridianDaycare1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE62",
+      "name": "route62_Layout",
+      "width": 60,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/route62/border.bin",
+      "blockdata_filepath": "data/layouts/route62/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE63",
+      "name": "Route63_Layout",
+      "width": 60,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/Route63/border.bin",
+      "blockdata_filepath": "data/layouts/Route63/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102HOUSE",
+      "name": "Route102House_Layout",
+      "width": 15,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_HallOfFame",
+      "border_filepath": "data/layouts/Route102House/border.bin",
+      "blockdata_filepath": "data/layouts/Route102House/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAIRY_FOUNTAIN1",
+      "name": "FairyFountain1_Layout",
+      "width": 30,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/FairyFountain1/border.bin",
+      "blockdata_filepath": "data/layouts/FairyFountain1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE13VOLCANO_HOUSE",
+      "name": "Route13VolcanoHouse_Layout",
+      "width": 15,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Route13VolcanoHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route13VolcanoHouse/map.bin"
     }
   ]
 }

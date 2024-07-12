@@ -185,7 +185,8 @@
     "ViridianForestCave1",
     "MtMoon_NewTunnel1",
     "MtMoon_New2",
-    "MtMoon_New3"
+    "MtMoon_New3",
+    "FairyFountain1"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",
@@ -331,7 +332,11 @@
     "BillsLake2",
     "CinnabarSouthRoute",
     "ViridianCity2",
-    "ViridianDaycare1"
+    "ViridianDaycare1",
+    "route62",
+    "Route63",
+    "Route102House",
+    "Route13VolcanoHouse"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

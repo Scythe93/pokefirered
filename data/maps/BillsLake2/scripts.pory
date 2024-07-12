@@ -9,3 +9,41 @@ script FallsSign1{
     releaseall
     end
 }
+
+script Jahova_hiker1{
+    trainerbattle_single(TRAINER_JAHOVA_HIKER1, Jhike1_Intro, Jhike1_Outro)
+    msgbox(PostBattle_Jhike1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Jhike1_Outro{
+    "Largest waterfall in the region!"
+    }
+
+text Jhike1_Intro{
+    "Feel the mist from the waterfall?"
+}
+
+text PostBattle_Jhike1{
+    "maybe I should train harder..."
+}
+
+script Jahova_hiker2{
+    trainerbattle_single(TRAINER_JAHOVA_HIKER2, Jhike2_Intro, Jhike2_Outro)
+    msgbox(PostBattle_Jhike2, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Jhike2_Outro{
+    "Largest waterfall in the region!"
+    }
+
+text Jhike2_Intro{
+    "Feel the mist from the waterfall?"
+}
+
+text PostBattle_Jhike2{
+    "maybe I should train harder..."
+}

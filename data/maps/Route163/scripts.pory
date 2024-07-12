@@ -4,8 +4,8 @@ mapscripts Route163_MapScripts{
 
 
 script r163swimmer1{
-    trainerbattle_single(TRAINER_RTE163SWIMMER1, vLass_Intro, vLass_Outro)
-    msgbox(PostBattle_vLass, MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_RTE163SWIMMER1, swimmerintro1, swimmeroutro1)
+    msgbox(swimmerpost1, MSGBOX_AUTOCLOSE)
     waitmessage
     end
 }
@@ -17,5 +17,22 @@ text swimmeroutro1{
     "I should have known you'd be tough!"
 }
 text swimmerpost1{
+    "Careful! We're far from shore!"
+}
+
+script r163swimmer2{
+    trainerbattle_single(TRAINER_RTE163SWIMMER2, swimmerintro2, swimmeroutro2)
+    msgbox(swimmerpost2, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text swimmerintro2{
+    "Just keep swimming swimming swimming!"
+}
+text swimmeroutro2{
+    "swimming swimming swimming swimming swimmg SWIMMING SWIMMING SWIMMING"
+}
+text swimmerpost2{
     "Careful! We're far from shore!"
 }

@@ -1456,3 +1456,18 @@ Text_TestMsg::
 
 	.include "data/maps/ViridianDaycare1/scripts.inc"
 	.include "data/maps/ViridianDaycare1/text.inc"
+
+	.include "data/maps/route62/scripts.inc"
+	.include "data/maps/route62/text.inc"
+
+	.include "data/maps/Route63/scripts.inc"
+	.include "data/maps/Route63/text.inc"
+
+	.include "data/maps/Route102House/scripts.inc"
+	.include "data/maps/Route102House/text.inc"
+
+	.include "data/maps/FairyFountain1/scripts.inc"
+	.include "data/maps/FairyFountain1/text.inc"
+
+	.include "data/maps/Route13VolcanoHouse/scripts.inc"
+	.include "data/maps/Route13VolcanoHouse/text.inc"

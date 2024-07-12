@@ -113,6 +113,13 @@
       "elevation": 0,
       "dest_map": "MAP_SAFARI_ZONE_EAST",
       "dest_warp_id": "4"
+    },
+    {
+      "x": 34,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_SAFARI_ZONE_CENTER_REST_HOUSE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

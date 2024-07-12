@@ -82,21 +82,21 @@
     },
     {
       "x": 20,
-      "y": 39,
+      "y": 34,
       "elevation": 3,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "3"
     },
     {
       "x": 21,
-      "y": 39,
+      "y": 34,
       "elevation": 3,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "4"
     },
     {
       "x": 22,
-      "y": 39,
+      "y": 34,
       "elevation": 0,
       "dest_map": "MAP_SAFARI_ZONE_WEST",
       "dest_warp_id": "5"
