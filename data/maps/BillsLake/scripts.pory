@@ -32,3 +32,14 @@ script billakeitem2{
     releaseall
     end
 }
+
+script billakeitem3{
+    lockall
+    giveitem(ITEM_MASTER_BALL)
+    waitmessage
+    closemessage
+    removeobject(3)
+    setflag(FLAG_0x0C7)
+    releaseall
+    end
+}

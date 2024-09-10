@@ -17,8 +17,8 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_JYNX] = 
     {
-        .nickname = _("ZYNX"),
-        .species = SPECIES_JYNX,
+        .nickname = _("SWAMPERT"),
+        .species = SPECIES_SWAMPERT,
         .ivs = {18, 17, 18, 22, 25, 21},
         .abilityNum = 0,
         .otId = 36728,
@@ -29,7 +29,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("DONTAE"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_POLIWHIRL
+        .requestedSpecies = SPECIES_CHARIZARD
     }, 
     [INGAME_TRADE_NIDORAN] = 
     {
@@ -82,8 +82,8 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORINOA] = 
     {
 #if defined(FIRERED)
-        .nickname = _("SUICUNE"),
-        .species = SPECIES_AERODACTYL,
+        .nickname = _("REGISTEEL"),
+        .species = SPECIES_REGISTEEL,
         .ivs = {22, 25, 18, 19, 22, 15},
         .abilityNum = 0,
         .otId = 13637,

@@ -9,7 +9,7 @@ script RainforestItem4{
     waitmessage
     closemessage
     removeobject(1)
-    setflag(FLAG_0x0BF)
+    setflag(FLAG_0x0C8)
     releaseall
     end
 }
@@ -20,7 +20,7 @@ script RainforestItem5{
     waitmessage
     closemessage
     removeobject(2)
-    setflag(FLAG_0x0C0)
+    setflag(FLAG_0x0CA)
     releaseall
     end
 }
@@ -32,7 +32,7 @@ script RainforestItem6{
     waitmessage
     closemessage
     removeobject(5)
-    setflag(FLAG_0x0C1)
+    setflag(FLAG_0x0C9)
     releaseall
     end
 }

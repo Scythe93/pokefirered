@@ -1,4 +1,4 @@
-mapscripts Route233Cave_New2_MapScripts{
+mapscripts Route233Cave_MapScripts{
 
 }
 
@@ -16,4 +16,14 @@ script Groudon1{
     releaseall
     end
 
+}
+
+script Warning1{
+    lockall
+    msgbox(format("What's that Triangle?"))
+    msgbox(format("It has the reflection of a Groudon!"))
+    msgbox(format("Better SAVE the game before advancing!"))
+    waitmessage
+    closemessage
+    releaseall
 }

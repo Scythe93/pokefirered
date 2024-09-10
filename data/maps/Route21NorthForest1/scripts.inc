@@ -14,7 +14,7 @@ RainforestItem4::
 # 11 "data/maps/Route21NorthForest1/scripts.pory"
 	removeobject 1
 # 12 "data/maps/Route21NorthForest1/scripts.pory"
-	setflag FLAG_0x0BF
+	setflag FLAG_0x0C8
 # 13 "data/maps/Route21NorthForest1/scripts.pory"
 	releaseall
 	end
@@ -32,7 +32,7 @@ RainforestItem5::
 # 22 "data/maps/Route21NorthForest1/scripts.pory"
 	removeobject 2
 # 23 "data/maps/Route21NorthForest1/scripts.pory"
-	setflag FLAG_0x0C0
+	setflag FLAG_0x0CA
 # 24 "data/maps/Route21NorthForest1/scripts.pory"
 	releaseall
 	end
@@ -50,7 +50,7 @@ RainforestItem6::
 # 34 "data/maps/Route21NorthForest1/scripts.pory"
 	removeobject 5
 # 35 "data/maps/Route21NorthForest1/scripts.pory"
-	setflag FLAG_0x0C1
+	setflag FLAG_0x0C9
 # 36 "data/maps/Route21NorthForest1/scripts.pory"
 	releaseall
 	end

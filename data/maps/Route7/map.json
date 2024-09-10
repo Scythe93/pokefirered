@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RainforestItem1",
-      "flag": "FLAG_0x0BC"
+      "flag": "FLAG_0x0C8"
     },
     {
       "type": "object",
@@ -65,7 +65,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RainforestItem2",
-      "flag": "FLAG_0x0BD"
+      "flag": "FLAG_0x0BF"
     },
     {
       "type": "object",
@@ -79,7 +79,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RainforestItem3",
-      "flag": "FLAG_0x0BE"
+      "flag": "FLAG_0x0C1"
     },
     {
       "type": "object",

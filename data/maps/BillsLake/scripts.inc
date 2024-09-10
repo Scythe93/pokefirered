@@ -50,6 +50,24 @@ billakeitem2::
 	end
 
 
+billakeitem3::
+# 37 "data/maps/BillsLake/scripts.pory"
+	lockall
+# 38 "data/maps/BillsLake/scripts.pory"
+	giveitem ITEM_MASTER_BALL
+# 39 "data/maps/BillsLake/scripts.pory"
+	waitmessage
+# 40 "data/maps/BillsLake/scripts.pory"
+	closemessage
+# 41 "data/maps/BillsLake/scripts.pory"
+	removeobject 3
+# 42 "data/maps/BillsLake/scripts.pory"
+	setflag FLAG_0x0C7
+# 43 "data/maps/BillsLake/scripts.pory"
+	releaseall
+	end
+
+
 FairyLakeSign_Text_0:
 # 8 "data/maps/BillsLake/scripts.pory"
 	.string "Lake Jahova$"
