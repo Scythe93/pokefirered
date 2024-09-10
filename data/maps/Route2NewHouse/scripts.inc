@@ -226,3 +226,75 @@ Route18_EastEntrance_2F_EventScript_AlreadyTraded::
 	release
 # 115 "data/maps/Route2NewHouse/scripts.pory"
 	end
+# 116 "data/maps/Route2NewHouse/scripts.pory"
+
+# 117 "data/maps/Route2NewHouse/scripts.pory"
+
+# 118 "data/maps/Route2NewHouse/scripts.pory"
+
+# 119 "data/maps/Route2NewHouse/scripts.pory"
+Route11_EastEntrance_2F_EventScript_Turner::
+# 120 "data/maps/Route2NewHouse/scripts.pory"
+	lock
+# 121 "data/maps/Route2NewHouse/scripts.pory"
+	faceplayer
+# 122 "data/maps/Route2NewHouse/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_NIDORINOA
+# 123 "data/maps/Route2NewHouse/scripts.pory"
+	call EventScript_GetInGameTradeSpeciesInfo
+# 124 "data/maps/Route2NewHouse/scripts.pory"
+	goto_if_set FLAG_DID_NINA_TRADE, Route11_EastEntrance_2F_EventScript_AlreadyTraded
+# 125 "data/maps/Route2NewHouse/scripts.pory"
+	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+# 126 "data/maps/Route2NewHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route11_EastEntrance_2F_EventScript_DeclineTrade
+# 127 "data/maps/Route2NewHouse/scripts.pory"
+	call EventScript_ChooseMonForInGameTrade
+# 128 "data/maps/Route2NewHouse/scripts.pory"
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Route11_EastEntrance_2F_EventScript_DeclineTrade
+# 129 "data/maps/Route2NewHouse/scripts.pory"
+	call EventScript_GetInGameTradeSpecies
+# 130 "data/maps/Route2NewHouse/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route11_EastEntrance_2F_EventScript_NotRequestedMon
+# 131 "data/maps/Route2NewHouse/scripts.pory"
+	call EventScript_DoInGameTrade
+# 132 "data/maps/Route2NewHouse/scripts.pory"
+	msgbox Trade_Text_HeyThanks
+# 133 "data/maps/Route2NewHouse/scripts.pory"
+	setflag FLAG_DID_NINA_TRADE
+# 134 "data/maps/Route2NewHouse/scripts.pory"
+	release
+# 135 "data/maps/Route2NewHouse/scripts.pory"
+	end
+# 136 "data/maps/Route2NewHouse/scripts.pory"
+
+# 137 "data/maps/Route2NewHouse/scripts.pory"
+Route11_EastEntrance_2F_EventScript_DeclineTrade::
+# 138 "data/maps/Route2NewHouse/scripts.pory"
+	msgbox Trade_Text_AwwOhWell
+# 139 "data/maps/Route2NewHouse/scripts.pory"
+	release
+# 140 "data/maps/Route2NewHouse/scripts.pory"
+	end
+# 141 "data/maps/Route2NewHouse/scripts.pory"
+
+# 142 "data/maps/Route2NewHouse/scripts.pory"
+Route11_EastEntrance_2F_EventScript_NotRequestedMon::
+# 143 "data/maps/Route2NewHouse/scripts.pory"
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+# 144 "data/maps/Route2NewHouse/scripts.pory"
+	msgbox Trade_Text_WhatThatsNoMon
+# 145 "data/maps/Route2NewHouse/scripts.pory"
+	release
+# 146 "data/maps/Route2NewHouse/scripts.pory"
+	end
+# 147 "data/maps/Route2NewHouse/scripts.pory"
+
+# 148 "data/maps/Route2NewHouse/scripts.pory"
+Route11_EastEntrance_2F_EventScript_AlreadyTraded::
+# 149 "data/maps/Route2NewHouse/scripts.pory"
+	msgbox Trade_Text_IsntMyOldMonGreat
+# 150 "data/maps/Route2NewHouse/scripts.pory"
+	release
+# 151 "data/maps/Route2NewHouse/scripts.pory"
+	end

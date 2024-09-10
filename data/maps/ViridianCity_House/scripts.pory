@@ -1,0 +1,16 @@
+mapscripts ViridianCity_House_MapScripts{
+
+}
+
+script CelebiEncounter1{
+    lockall
+    playmoncry(SPECIES_CELEBI, CRY_MODE_NORMAL)
+    waitmoncry
+    setwildbattle(SPECIES_CELEBI, 50, ITEM_NONE)
+    dowildbattle 
+    removeobject(2)
+    setflag(FLAG_0x0C3)
+    releaseall
+    end
+
+}

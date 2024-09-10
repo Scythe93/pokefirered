@@ -9,7 +9,7 @@ script LugiaEncounter1{
     closemessage
     playmoncry(SPECIES_LUGIA, CRY_MODE_NORMAL)
     waitmoncry
-    setwildbattle(SPECIES_LUGIA, 50, ITEM_NONE)
+    setwildbattle(SPECIES_LUGIA, 65, ITEM_NONE)
     dowildbattle 
     removeobject(1)
     setflag(FLAG_0x0B4)

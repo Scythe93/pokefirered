@@ -78,21 +78,21 @@
       "y": 8,
       "elevation": 3,
       "dest_map": "MAP_VIRIDIAN_CITY",
-      "dest_warp_id": "6"
+      "dest_warp_id": "5"
     },
     {
       "x": 7,
       "y": 8,
       "elevation": 3,
       "dest_map": "MAP_VIRIDIAN_CITY",
-      "dest_warp_id": "6"
+      "dest_warp_id": "5"
     },
     {
       "x": 8,
       "y": 8,
       "elevation": 3,
       "dest_map": "MAP_VIRIDIAN_CITY",
-      "dest_warp_id": "6"
+      "dest_warp_id": "5"
     },
     {
       "x": 1,

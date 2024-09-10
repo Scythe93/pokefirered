@@ -306,6 +306,20 @@ celebirun2:
 	jump_2_down
 	step_end
 
+ViridianCaveSign1::
+# 122 "data/maps/ViridianForest2/scripts.pory"
+	lockall
+# 123 "data/maps/ViridianForest2/scripts.pory"
+	msgbox ViridianCaveSign1_Text_0
+# 124 "data/maps/ViridianForest2/scripts.pory"
+	msgbox ViridianCaveSign1_Text_1
+# 125 "data/maps/ViridianForest2/scripts.pory"
+	closemessage
+# 126 "data/maps/ViridianForest2/scripts.pory"
+	releaseall
+	end
+
+
 RivalBattle2_Text_0:
 # 6 "data/maps/ViridianForest2/scripts.pory"
 	.string "Yo!$"
@@ -334,3 +348,11 @@ Rival2WalkAway_Text_1:
 # 21 "data/maps/ViridianForest2/scripts.pory"
 	.string "Keep it up. I'll be seeing you\n"
 	.string "again... Smell ya later!$"
+
+ViridianCaveSign1_Text_0:
+# 123 "data/maps/ViridianForest2/scripts.pory"
+	.string "Viridian Cave$"
+
+ViridianCaveSign1_Text_1:
+# 124 "data/maps/ViridianForest2/scripts.pory"
+	.string "WARNING: BRING AN ESCAPE ROPE!$"

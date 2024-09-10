@@ -2,7 +2,7 @@
   "id": "MAP_MEW_CAVE1",
   "name": "MewCave1",
   "layout": "LAYOUT_MEW_CAVE1",
-  "music": "MUS_VS_MEWTWO",
+  "music": "MUS_MT_MOON",
   "region_map_section": "MAPSEC_S_S_ANNE",
   "requires_flash": true,
   "weather": "WEATHER_NONE",

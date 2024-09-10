@@ -31,14 +31,17 @@ if(flag(FLAG_WONDER_CARD_UNUSED_10) == FALSE){
     setflag(0x829)
     setflag(FLAG_WONDER_CARD_UNUSED_10)
     setflag(FLAG_0x305)
+    setflag(FLAG_0x0C4) //aide blocking the basement
     clearflag(FLAG_0x304)
     closemessage
     msgbox(format("I'm going to start you off with these fancy looking pokeballs too. They function the same as a regular pokeball but look cooler. Buy some more at the Mart."))
     giveitem(ITEM_PREMIER_BALL, 10)
     giveitem(ITEM_LUXURY_BALL, 5)
     closemessage
+    applymovement(3, labbasement1)
     msgbox(format("Speak with the man in the trenchcoat in the corner, if you'd like a rundown of this ROM hack."))
     msgbox(format("You should be good to go now. Have fun."))
+    
     closemessage
     releaseall
     end}
@@ -55,19 +58,51 @@ else{msgbox(format("Good luck on your adventure.\n Speak to SCYTHE in the corner
 script scythedialogue{
     lockall
     msgbox(format("Hey! I'm Scythe. I am the creator of this Rom."))
-    msgbox(format("A quick rundown of the rom for you; The general layout has been kept the same as Fire Red. Some routes and areas have been modified, giving it a new feel."))
+    msgbox(format("Sorry you're now stuck in a long dialogue, but I will give you a full rundown of this romhack."))
+    msgbox(format("The general layout has been kept the same as Fire Red. Most routes and areas have been modified, giving it a new feel."))
     msgbox(format("Some areas and routes have been created entirely new. Keep your eyes open and try exploring a bit. You might have to come back to an area after getting surf, cut, etc."))
-    msgbox(format("The idea of this rom, is to find rare pokemon. They might be hard to find, but you can get every pokemon from gen 1-3."))
-    msgbox(format("I tried to keep things slightly realistic in the sense that, you will find bugs in a forest, you won't find saltwater fish in a river, etc."))
+    msgbox(format("The idea of this rom, is to find rare pokemon. They might be hard to find, but you can get every pokemon from gen 1-3, with the exception of a few legendaries."))
+    msgbox(format("I tried to keep things slightly realistic in the sense that, you will find bug pokemon in a forest, you won't find saltwater fish in a river, etc."))
     msgbox(format("Just because an area looks cool, doesn't necessarily mean there is a rare pokemon hiding there, and just because an area is boring doesn't mean there is nothing there :P"))
-    msgbox(format("the fishing rods are able to find different things, old rod doesn't only catch magikarps anymore."))
+    msgbox(format("The fishing rods are able to find different things, old rod doesn't only catch magikarps anymore."))
     msgbox(format("All pokemon can be obtained WITHOUT needing to trade. Whether by leveling up, or a stone."))
-    msgbox(format("Eevee is effected by moon stones and sun stones."))
-    msgbox(format("also, most of the in-game trades have been modified. Don't skip past them, it might be actaully useful to you."))
-    msgbox(format("The Town Map is kinda messed up, it is extremely complicated to edit it properly so I just gave up and left it alone. Some new areas are not going to show up on the map properly, or might bug a little if you open the map in certain places. Don't trust the town map too much, there are large areas that you won't be able to see on there at all."))
-    msgbox(format("my apologies for any bugs you find, I'm sure I've missed at least one thing. If you find a bug, let me know and I can fix it and send the updated rom"))
-    msgbox(format("The rom hack ends after the pokemon league. From there on out, it's the same as regular fire red."))
+    msgbox(format("Eevee is now effected by moon stones and sun stones. Slowpoke is too."))
+    msgbox(format("Gym battles have increased difficulty. You will end up having to train your pokemon more than in Fire Red. Oh, and the elite 4 are increased too. Try beating them twice!"))
+    msgbox(format("Most of the in-game trades have been modified. Don't skip past them, they might be actaully useful to you."))
+    msgbox(format("Shiny odds have been increased, from 1/8192 to 1/262. I felt it was damn nearly impossible to find a shiny before, now you will be able to find a couple throughout your playthrough without grinding for hours. It's still rare enough that it will excite you when you find them, but not so rare that it literally never happens."))
+    msgbox(format("The Town Map is kinda messed up, it is extremely complicated to edit it properly so I just gave up and left it alone. Some new areas are not going to show up on the map properly, or might bug a little if you open the map in certain places. Don't trust the town map too much, there are large areas / routes that you won't be able to see on there at all."))
+    msgbox(format("My apologies for any bugs you find, I'm sure I've missed a few. If you find a bug, let me know and I can fix it and send the updated rom"))
+    msgbox(format("The rom hack ends after the pokemon league, Just make sure you go back and battle them a second time after beating them once. From there on out, it's the same as regular fire red."))
     msgbox(format("and that's it!! Good Luck!!!"))
+    closemessage
+    releaseall
+    end
+}
+
+
+script labscientist1{
+    lockall
+    msgbox(format("Why are you over here? There's nothing here for you, this is just a dusty storage basement!"))
+    msgbox(format("You should go speak with Professor Oak if you haven't already."))
+    closemessage
+    releaseall
+    end
+}
+
+
+movement labbasement1{
+    walk_down *2
+    walk_right *10
+
+
+}
+
+
+script labscientist2{
+
+    lockall
+    msgbox(format("Hey there! I'm one of Professor Oak's Aide's. Nice to meet you. I'm sure I'll be working with you somewhere in the future!"))
+    msgbox(format("You should go speak with Oak, or Scythe if you haven't already."))
     closemessage
     releaseall
     end

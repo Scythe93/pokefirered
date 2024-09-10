@@ -1,0 +1,19 @@
+mapscripts Route233Cave_New2_MapScripts{
+
+}
+
+script Groudon1{
+    lockall
+    msgbox("...")
+    waitmessage
+    closemessage
+    playmoncry(SPECIES_GROUDON, CRY_MODE_NORMAL)
+    waitmoncry
+    setwildbattle(SPECIES_GROUDON, 65, ITEM_NONE)
+    dowildbattle 
+    removeobject(1)
+    setflag(FLAG_0x0C6)
+    releaseall
+    end
+
+}

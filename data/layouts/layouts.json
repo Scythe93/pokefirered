@@ -868,7 +868,7 @@
     {
       "id": "LAYOUT_ROUTE2",
       "name": "Route2_Layout",
-      "width": 24,
+      "width": 44,
       "height": 80,
       "border_width": 2,
       "border_height": 2,
@@ -4689,7 +4689,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Lab",
+      "secondary_tileset": "gTileset_Museum",
       "border_filepath": "data/layouts/PalletNewLabBasement/border.bin",
       "blockdata_filepath": "data/layouts/PalletNewLabBasement/map.bin"
     },
@@ -4737,7 +4737,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PalletTown",
+      "secondary_tileset": "gTileset_SeviiIslands123",
       "border_filepath": "data/layouts/CinnabarSouthRoute/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarSouthRoute/map.bin"
     },
@@ -4824,6 +4824,78 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/Route13VolcanoHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route13VolcanoHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_TMSHOP",
+      "name": "SaffronTMSHOP_Layout",
+      "width": 15,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Mart",
+      "border_filepath": "data/layouts/SaffronTMSHOP/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronTMSHOP/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE232",
+      "name": "Route232_Layout",
+      "width": 60,
+      "height": 25,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Route232/border.bin",
+      "blockdata_filepath": "data/layouts/Route232/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE2EXTEND",
+      "name": "Route2Extend_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/Route2Extend/border.bin",
+      "blockdata_filepath": "data/layouts/Route2Extend/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE233",
+      "name": "Route233_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Route233/border.bin",
+      "blockdata_filepath": "data/layouts/Route233/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE233CAVE",
+      "name": "Route233Cave_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Route233Cave/border.bin",
+      "blockdata_filepath": "data/layouts/Route233Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE23X",
+      "name": "Route23x_Layout",
+      "width": 16,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IndigoPlateau",
+      "border_filepath": "data/layouts/Route23x/border.bin",
+      "blockdata_filepath": "data/layouts/Route23x/map.bin"
     }
   ]
 }

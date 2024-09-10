@@ -3,7 +3,7 @@
   "name": "BillsLake2",
   "layout": "LAYOUT_BILLS_LAKE2",
   "music": "MUS_ROUTE3",
-  "region_map_section": "MAPSEC_ROUTE_25",
+  "region_map_section": "MAPSEC_ROUTE_10",
   "requires_flash": false,
   "weather": "WEATHER_RAIN",
   "map_type": "MAP_TYPE_ROUTE",

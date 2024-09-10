@@ -1,0 +1,19 @@
+mapscripts PalletNewLabBasement_MapScripts{
+
+
+}
+
+script MankeyBalls1{
+    lockall
+    msgbox(format("!!!!!"))
+    msgbox(format("Professor Oak must have forgotten about this Pokemon that he left down here in this dusty basement!"))
+    msgbox(format("I'm sure he wouldn't mind if I give it a new home with me!"))
+    playfanfare(MUS_OBTAIN_ITEM)
+    msgbox(format("{PLAYER} Recieved Mankey"))
+    givemon(SPECIES_MANKEY, 5, ITEM_ORAN_BERRY)
+    closemessage
+    setflag(FLAG_0x0C5)
+    removeobject(1)
+    releaseall
+    end
+}

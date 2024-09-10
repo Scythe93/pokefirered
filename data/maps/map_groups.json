@@ -336,7 +336,13 @@
     "route62",
     "Route63",
     "Route102House",
-    "Route13VolcanoHouse"
+    "Route13VolcanoHouse",
+    "SaffronTMSHOP",
+    "Route232",
+    "Route2Extend",
+    "Route233",
+    "Route233Cave",
+    "Route23x"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

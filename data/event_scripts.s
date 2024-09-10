@@ -1471,3 +1471,21 @@ Text_TestMsg::
 
 	.include "data/maps/Route13VolcanoHouse/scripts.inc"
 	.include "data/maps/Route13VolcanoHouse/text.inc"
+
+	.include "data/maps/SaffronTMSHOP/scripts.inc"
+	.include "data/maps/SaffronTMSHOP/text.inc"
+
+	.include "data/maps/Route232/scripts.inc"
+	.include "data/maps/Route232/text.inc"
+
+	.include "data/maps/Route2Extend/scripts.inc"
+	.include "data/maps/Route2Extend/text.inc"
+
+	.include "data/maps/Route233/scripts.inc"
+	.include "data/maps/Route233/text.inc"
+
+	.include "data/maps/Route233Cave/scripts.inc"
+	.include "data/maps/Route233Cave/text.inc"
+
+	.include "data/maps/Route23x/scripts.inc"
+	.include "data/maps/Route23x/text.inc"

@@ -1,0 +1,40 @@
+{
+  "id": "MAP_ROUTE232",
+  "name": "Route232",
+  "layout": "LAYOUT_ROUTE232",
+  "music": "MUS_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_ROUTE_23",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE23X",
+      "offset": -14,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE233",
+      "offset": 0,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

@@ -763,7 +763,8 @@
 #define TRAINER_RTE163SWIMMER2                   758
 #define TRAINER_JAHOVA_HIKER1                    759
 #define TRAINER_JAHOVA_HIKER2                    760
-
+#define TRAINER_CINSWIMMER1                      761
+#define TRAINER_CINSWIMMER2                      762
 // I added 12 so far
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 

@@ -298,6 +298,12 @@
 #define MAP_ROUTE63                              (83 | (3 << 8))
 #define MAP_ROUTE102HOUSE                        (84 | (3 << 8))
 #define MAP_ROUTE13VOLCANO_HOUSE                 (85 | (3 << 8))
+#define MAP_SAFFRON_TMSHOP                       (86 | (3 << 8))
+#define MAP_ROUTE232                             (87 | (3 << 8))
+#define MAP_ROUTE2EXTEND                         (88 | (3 << 8))
+#define MAP_ROUTE233                             (89 | (3 << 8))
+#define MAP_ROUTE233CAVE                         (90 | (3 << 8))
+#define MAP_ROUTE23X                             (91 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

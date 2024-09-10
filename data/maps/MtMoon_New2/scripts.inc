@@ -16,7 +16,7 @@ LugiaEncounter1::
 # 11 "data/maps/MtMoon_New2/scripts.pory"
 	waitmoncry
 # 12 "data/maps/MtMoon_New2/scripts.pory"
-	setwildbattle SPECIES_LUGIA, 50, ITEM_NONE
+	setwildbattle SPECIES_LUGIA, 65, ITEM_NONE
 # 13 "data/maps/MtMoon_New2/scripts.pory"
 	dowildbattle
 # 14 "data/maps/MtMoon_New2/scripts.pory"

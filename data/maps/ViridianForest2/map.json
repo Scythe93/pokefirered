@@ -16,7 +16,7 @@
   "connections": [
     {
       "map": "MAP_VIRIDIAN_FOREST",
-      "offset": 49,
+      "offset": 46,
       "direction": "left"
     }
   ],
@@ -96,6 +96,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 43,
+      "y": 56,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "ViridianCaveSign1"
+    }
   ]
 }

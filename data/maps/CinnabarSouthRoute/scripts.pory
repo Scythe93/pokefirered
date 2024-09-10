@@ -1,0 +1,76 @@
+mapscripts CinnabarSouthRoute_MapScripts{
+
+}
+
+script Cinna_Swim1{
+    trainerbattle_single(TRAINER_CINSWIMMER1, cs1_Intro, cs1_Outro)
+    msgbox(PostBattle_cs1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text cs1_Outro{
+    "Calm down!!!"
+    }
+
+text cs1_Intro{
+    "Did you come from Cinnabar Island?"
+}
+
+text PostBattle_cs1{
+    "maybe I should train harder..."
+}
+
+script Cinna_Swim2{
+    trainerbattle_single(TRAINER_CINSWIMMER2, cs2_Intro, cs2_Outro)
+    msgbox(PostBattle_cs2, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text cs2_Outro{
+    "Okay I'm sorry!"
+    }
+
+text cs2_Intro{
+    "Krystal is a stupid bitch, if I catch up to her I am going to drown her!"
+}
+
+text PostBattle_cs2{
+    "maybe I should train harder..."
+}
+
+
+script cinnaitem1{
+    lockall
+    giveitem(ITEM_NUGGET)
+    waitmessage
+    closemessage
+    removeobject(3)
+    setflag(FLAG_0x0C1)
+    releaseall
+    end
+}
+
+
+
+
+
+script cinnaitem2{
+    lockall
+    giveitem(ITEM_LEFTOVERS)
+    waitmessage
+    closemessage
+    removeobject(4)
+    setflag(FLAG_0x0C2)
+    releaseall
+    end
+}
+
+script DangerSeaSign2{
+    lockall
+    msgbox(format("WARNING: DANGEROUS SEAS AHEAD!"))
+    closemessage
+    releaseall
+    end
+}

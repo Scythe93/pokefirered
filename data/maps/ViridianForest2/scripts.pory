@@ -118,3 +118,11 @@ script celebi2{
     jump_2_down *3
 }
 
+script ViridianCaveSign1{
+    lockall
+    msgbox("Viridian Cave")
+    msgbox("WARNING: BRING AN ESCAPE ROPE!")
+    closemessage
+    releaseall
+    end
+}
