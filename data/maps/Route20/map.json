@@ -28,6 +28,21 @@
       "map": "MAP_PEWTER_CITY_HOUSE1",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_CINNABAR_SOUTH_ROUTE",
+      "offset": 59,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_CINNA_SOUTH2",
+      "offset": 20,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE21_SOUTH",
+      "offset": -24,
+      "direction": "up"
     }
   ],
   "object_events": [

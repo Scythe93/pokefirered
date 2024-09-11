@@ -304,6 +304,7 @@
 #define MAP_ROUTE233                             (89 | (3 << 8))
 #define MAP_ROUTE233CAVE                         (90 | (3 << 8))
 #define MAP_ROUTE23X                             (91 | (3 << 8))
+#define MAP_CINNA_SOUTH2                         (92 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

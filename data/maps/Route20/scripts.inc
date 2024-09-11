@@ -81,8 +81,10 @@ r20netball::
 # 46 "data/maps/Route20/scripts.pory"
 	setflag FLAG_0x0B1
 # 47 "data/maps/Route20/scripts.pory"
-	closemessage
+	removeitem 12
 # 48 "data/maps/Route20/scripts.pory"
+	closemessage
+# 49 "data/maps/Route20/scripts.pory"
 	releaseall
 	end
 

@@ -23,6 +23,11 @@
       "map": "MAP_CINNABAR_SOUTH_ROUTE",
       "offset": -1,
       "direction": "left"
+    },
+    {
+      "map": "MAP_CINNA_SOUTH2",
+      "offset": -30,
+      "direction": "left"
     }
   ],
   "object_events": [

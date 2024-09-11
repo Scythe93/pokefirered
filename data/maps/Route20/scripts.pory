@@ -44,6 +44,7 @@ script DangerSeaSign {
 script r20netball{
 	giveitem(ITEM_NET_BALL)
 	setflag(FLAG_0x0B1)
+	removeitem(12)
 	closemessage
 	releaseall
 	end

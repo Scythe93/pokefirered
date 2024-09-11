@@ -4896,6 +4896,18 @@
       "secondary_tileset": "gTileset_IndigoPlateau",
       "border_filepath": "data/layouts/Route23x/border.bin",
       "blockdata_filepath": "data/layouts/Route23x/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNA_SOUTH2",
+      "name": "CinnaSouth2_Layout",
+      "width": 40,
+      "height": 39,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/CinnaSouth2/border.bin",
+      "blockdata_filepath": "data/layouts/CinnaSouth2/map.bin"
     }
   ]
 }

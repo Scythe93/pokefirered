@@ -1,0 +1,50 @@
+{
+  "id": "MAP_CINNA_SOUTH2",
+  "name": "CinnaSouth2",
+  "layout": "LAYOUT_CINNA_SOUTH2",
+  "music": "MUS_ROUTE3",
+  "region_map_section": "MAPSEC_ROUTE_20",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_OCEAN_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_CINNABAR_ISLAND",
+      "offset": 16,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_CINNABAR_SOUTH_ROUTE",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE20",
+      "offset": -20,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_PEWTER_CITY_HOUSE1",
+      "offset": 30,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

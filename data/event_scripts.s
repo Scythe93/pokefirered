@@ -1489,3 +1489,6 @@ Text_TestMsg::
 
 	.include "data/maps/Route23x/scripts.inc"
 	.include "data/maps/Route23x/text.inc"
+
+	.include "data/maps/CinnaSouth2/scripts.inc"
+	.include "data/maps/CinnaSouth2/text.inc"
